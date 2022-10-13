@@ -1,7 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Lingyun Yang Tech Blog</title>
-        <link>http://example.org/tags/</link>
+        <link>https://yangyangsimons.github.io/tags/</link>
         <description>Tags - Tag - Lingyun Yang Tech Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><atom:link href="https://yangyangsimons.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
