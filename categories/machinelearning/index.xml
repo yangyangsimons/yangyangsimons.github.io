@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>machineLearning - Category - Lingyun Yang Tech Blog</title>
+        <link>https://yangyangsimons.github.io/categories/machinelearning/</link>
+        <description>machineLearning - Category - Lingyun Yang Tech Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Tue, 21 Dec 2021 03:49:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/machinelearning/" rel="self" type="application/rss+xml" /><item>
+    <title>Install XAMPP in Mac</title>
+    <link>https://yangyangsimons.github.io/posts/apache_server/</link>
+    <pubDate>Tue, 21 Dec 2021 03:49:55 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/apache_server/</guid>
+    <description><![CDATA[Install XAMPP in mac When trying to install XAMPP in mac with a M1 chip. Apache server cann&rsquo;t start. Solution are as follows:
+check the port occupation. sudo lsof -i -n stop the build in Apache server in mac sudo apachectl stop restart XAMPP and run the Apache server, it will works ]]></description>
+</item>
+</channel>
+</rss>
