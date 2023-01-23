@@ -31,7 +31,7 @@
     <description><![CDATA[Introduction useReducer() is used for state management in React components, providing a more predictable state transition by accepting a state and action in the reducer function.]]></description>
 </item>
 <item>
-    <title>How to use .gitignore</title>
+    <title>About gitignore</title>
     <link>https://yangyangsimons.github.io/posts/tools-git-gitignore/</link>
     <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
@@ -71,7 +71,7 @@
     <description><![CDATA[Variable define style It&rsquo;s considered good style to declare variables as closely as possible to the point where they are first used.]]></description>
 </item>
 <item>
-    <title>Git - Introduce to git branch operation</title>
+    <title>Git branch operation</title>
     <link>https://yangyangsimons.github.io/posts/tools-git-git_branch/</link>
     <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>

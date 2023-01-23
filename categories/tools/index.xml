@@ -5,7 +5,7 @@
         <description>tools - Category - Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
             <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/tools/" rel="self" type="application/rss+xml" /><item>
-    <title>How to use .gitignore</title>
+    <title>About gitignore</title>
     <link>https://yangyangsimons.github.io/posts/tools-git-gitignore/</link>
     <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
@@ -21,7 +21,7 @@
     <description><![CDATA[What problems happens here? When I installed brew following the instruction from the Homebrew official website, the error zsh: command not found: brew happens.]]></description>
 </item>
 <item>
-    <title>Git - Introduce to git branch operation</title>
+    <title>Git branch operation</title>
     <link>https://yangyangsimons.github.io/posts/tools-git-git_branch/</link>
     <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
@@ -37,12 +37,12 @@
     <description><![CDATA[How to remove and create SSH key create SSH key first step : check the local ssh cd ~/.]]></description>
 </item>
 <item>
-    <title>Git - Multiple github account in the same computer</title>
+    <title>Multiple github account in the same computer</title>
     <link>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</link>
     <pubDate>Wed, 05 Jan 2022 01:22:15 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</guid>
-    <description><![CDATA[Manage multiple github account in the same computer Sometimes we may have two or more github accounts in order to mamnagement different contents, and we need to deal with those accounts in the same computer.]]></description>
+    <description><![CDATA[Manage multiple github accounts in the same computer Sometimes we may have two or more github accounts in order to mamnagement different contents, and we need to deal with those accounts in the same computer.]]></description>
 </item>
 <item>
     <title>Modify files created and modified time</title>

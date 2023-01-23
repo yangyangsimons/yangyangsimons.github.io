@@ -4,13 +4,37 @@
         <link>https://yangyangsimons.github.io/tags/git/</link>
         <description>Git - Tag - Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/git/" rel="self" type="application/rss+xml" /><item>
-    <title>Git - Introduce to git branch operation</title>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>About gitignore</title>
+    <link>https://yangyangsimons.github.io/posts/tools-git-gitignore/</link>
+    <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-gitignore/</guid>
+    <description><![CDATA[What is .gitignore .gitignore is a file that Git uses to determine which files and directories to ignore, and not track, when performing operations.]]></description>
+</item>
+<item>
+    <title>Git branch operation</title>
     <link>https://yangyangsimons.github.io/posts/tools-git-git_branch/</link>
     <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-git-git_branch/</guid>
     <description><![CDATA[Introduce to git branch operation 1. What is an branch? Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained.]]></description>
+</item>
+<item>
+    <title>Git - How to remove and create SSH key</title>
+    <link>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</link>
+    <pubDate>Tue, 01 Feb 2022 03:49:55 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</guid>
+    <description><![CDATA[How to remove and create SSH key create SSH key first step : check the local ssh cd ~/.]]></description>
+</item>
+<item>
+    <title>Multiple github account in the same computer</title>
+    <link>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</link>
+    <pubDate>Wed, 05 Jan 2022 01:22:15 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</guid>
+    <description><![CDATA[Manage multiple github accounts in the same computer Sometimes we may have two or more github accounts in order to mamnagement different contents, and we need to deal with those accounts in the same computer.]]></description>
 </item>
 </channel>
 </rss>
