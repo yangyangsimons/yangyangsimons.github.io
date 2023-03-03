@@ -142,24 +142,6 @@ OS name: &amp;ldquo;mac os x&amp;rdquo;, version: &amp;ldquo;12.4&amp;rdquo;, ar
 &lt;/div&gt;&lt;p&gt;then &lt;code&gt;:wq&lt;/code&gt;&lt;/p&gt;
 </description>
         </item>
-        <item>
-        <title>Install XAMPP in Mac</title>
-        <link>https://yangyangsimons.github.io/posts/tools-apache_server/</link>
-        <pubDate>Wed, 15 Dec 2021 03:49:55 +0100</pubDate>
-        
-        <guid>https://yangyangsimons.github.io/posts/tools-apache_server/</guid>
-        <description>&lt;h1 id=&#34;install-xampp-in-mac&#34;&gt;Install XAMPP in mac&lt;/h1&gt;
-&lt;p&gt;When trying to install XAMPP in mac with a M1 chip. Apache server cann&amp;rsquo;t start.
-Solution are as follows:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;check the port occupation.
-&lt;code&gt;sudo lsof -i -n &lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;stop the build in Apache server in mac
-&lt;code&gt;sudo apachectl stop&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;restart XAMPP and run the Apache server, it will works&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
         
     </channel>
 </rss>
