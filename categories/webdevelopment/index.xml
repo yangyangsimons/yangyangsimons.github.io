@@ -4,7 +4,25 @@
         <link>https://yangyangsimons.github.io/categories/webdevelopment/</link>
         <description>webDevelopment - Category - Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/webdevelopment/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/webdevelopment/" rel="self" type="application/rss+xml" /><item>
+    <title>How to set HomeBrew in an M1 Mac</title>
+    <link>https://yangyangsimons.github.io/posts/tools-homebrewset/</link>
+    <pubDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/tools-homebrewset/</guid>
+    <description><![CDATA[What problems happens here? When I installed brew following the instruction from the Homebrew official website, the error zsh: command not found: brew happens.
+How to fix this problem? I fixed this problem by editing the path, creating the missing .zshrc file, and exploring the path to this new file.
+cd /opt/homebrew/bin/ PATH=$PATH:/opt/homebrew/bin cd touch .zshrc echo export PATH=$PATH:/opt/homebrew/bin &gt;&gt; .zshrc ]]></description>
+</item>
+<item>
+    <title>Java - Variables</title>
+    <link>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</link>
+    <pubDate>Fri, 22 Apr 2022 01:45:06 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</guid>
+    <description><![CDATA[Variable define style It&rsquo;s considered good style to declare variables as closely as possible to the point where they are first used. The keyword final indicates that you can assign to the variable once, and then its value is set once and for all. It&rsquo;s customary to name constants in all uppercase. ]]></description>
+</item>
+<item>
     <title>Git - Introduce to git branch operation</title>
     <link>https://yangyangsimons.github.io/posts/tools-git-git_branch/</link>
     <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
@@ -72,15 +90,6 @@ Delete the global config git config --global --unset &#39;user.name&#39; git con
     <guid>https://yangyangsimons.github.io/posts/tools-modifyfilecreatetime/</guid>
     <description><![CDATA[In the Mac OS system, every file have two main time attribute: &ldquo;Create Time&rdquo; and &quot; Modify Time&quot;, they can be check by clicking the file and select get info button.
 Changing those two attributes by using setfile command. setfile -d 'mm/dd/yy hh:mm:ss' filename can change the create date. setfile -m 'mm/dd/yy hh:mm:ss' filename can change the modify date. note: installing Xcode command line tools before using setfile command in terminal.]]></description>
-</item>
-<item>
-    <title>Install XAMPP in Mac</title>
-    <link>https://yangyangsimons.github.io/posts/tools-apache_server/</link>
-    <pubDate>Wed, 15 Dec 2021 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-apache_server/</guid>
-    <description><![CDATA[Install XAMPP in mac When trying to install XAMPP in mac with a M1 chip. Apache server cann&rsquo;t start. Solution are as follows:
-check the port occupation. sudo lsof -i -n stop the build in Apache server in mac sudo apachectl stop restart XAMPP and run the Apache server, it will works ]]></description>
 </item>
 </channel>
 </rss>

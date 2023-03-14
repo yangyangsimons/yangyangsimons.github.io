@@ -4,7 +4,15 @@
         <link>https://yangyangsimons.github.io/categories/backend/</link>
         <description>backend - Category - Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Sat, 19 Feb 2022 03:49:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/backend/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 22 Apr 2022 01:45:06 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/backend/" rel="self" type="application/rss+xml" /><item>
+    <title>Java - Variables</title>
+    <link>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</link>
+    <pubDate>Fri, 22 Apr 2022 01:45:06 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</guid>
+    <description><![CDATA[Variable define style It&rsquo;s considered good style to declare variables as closely as possible to the point where they are first used. The keyword final indicates that you can assign to the variable once, and then its value is set once and for all. It&rsquo;s customary to name constants in all uppercase. ]]></description>
+</item>
+<item>
     <title>Java - servialVersionUID&amp;transient</title>
     <link>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</link>
     <pubDate>Sat, 19 Feb 2022 03:49:55 &#43;0100</pubDate>
