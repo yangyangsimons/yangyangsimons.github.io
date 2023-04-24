@@ -4,83 +4,91 @@
         <link>https://yangyangsimons.github.io/</link>
         <description>Welcome to my website</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</lastBuildDate>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Sun, 06 Nov 2022 13:31:38 &#43;0000</lastBuildDate>
             <atom:link href="https://yangyangsimons.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>How to understand Information Theory</title>
+    <link>https://yangyangsimons.github.io/posts/ml-information_theory/</link>
+    <pubDate>Sun, 06 Nov 2022 13:31:38 &#43;0000</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/ml-information_theory/</guid>
+    <description><![CDATA[this is the test ]]></description>
+</item>
+<item>
     <title>Git - Introduce to git branch operation</title>
-    <link>https://yangyangsimons.github.io/posts/git_branch/</link>
+    <link>https://yangyangsimons.github.io/posts/tools-git-git_branch/</link>
     <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/git_branch/</guid>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-git_branch/</guid>
     <description><![CDATA[Introduce to git branch operation 1. What is an branch? Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained. Git&rsquo;s branch function can support the development and version management of multiple functions at the same time. One branch is not affected by other branches, so modification can be made in the same database at the same time.]]></description>
 </item>
 <item>
     <title>Java - servialVersionUID&amp;transient</title>
-    <link>https://yangyangsimons.github.io/posts/servialversionuidtransient/</link>
+    <link>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</link>
     <pubDate>Sat, 19 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/servialversionuidtransient/</guid>
+    <guid>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</guid>
     <description><![CDATA[1. we use ObjectOutputStream to serialize an object, but when we change the class file which the object belongs to, there will be a InvalidClassException; Thrown when the Serialization runtime detects one of the following problems with a Class.
 The serial version of the class does not match that of the class descriptor read from the stream. The class contains unknown datatypes. The class does not have an accessible no-arg constructor.]]></description>
 </item>
 <item>
     <title>Java - Introduce to Java Thread</title>
-    <link>https://yangyangsimons.github.io/posts/javathread/</link>
+    <link>https://yangyangsimons.github.io/posts/be-java-javathread/</link>
     <pubDate>Sat, 12 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/javathread/</guid>
+    <guid>https://yangyangsimons.github.io/posts/be-java-javathread/</guid>
     <description><![CDATA[Introduce to Java Thread The question mainly focused on this paper are: 为什么需要多线程？ 多线程带来了什么问题，如何避免？ 线程的属性、状态、生命周期详解 什么是ThreadLocal？ 为什么需要线程池？ 线程池的构造函数中的参数都是什么含义？
 Why Thread The side-effect of thread, how to avoid this? Attribute, status and life circle of thread What is ThreadLocal Why Thread pool The meaning of parameters in Thread pool ]]></description>
 </item>
 <item>
     <title>Git - How to remove and create SSH key</title>
-    <link>https://yangyangsimons.github.io/posts/github_ssh/</link>
+    <link>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</link>
     <pubDate>Tue, 01 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/github_ssh/</guid>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</guid>
     <description><![CDATA[How to remove and create SSH key create SSH key first step : check the local ssh cd ~/.ssh if there is a ssh key already exist, you will find files like: id_rsa.pub , known_hosts , id_rsa and so forth. second step: create a new ssh key: ssh-keygen -t rsa -b 4096 -C &quot;XXX@example.com&quot; if you already have a ssh key it will prompt Enter file in which to save the key (/Users/lynnyang/.]]></description>
 </item>
 <item>
     <title>Java - Read all object use ObjectInputStream</title>
-    <link>https://yangyangsimons.github.io/posts/read-all-object-use-objectinputstream/</link>
+    <link>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</link>
     <pubDate>Thu, 20 Jan 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/read-all-object-use-objectinputstream/</guid>
+    <guid>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</guid>
     <description><![CDATA[when we use the ObjectInputStream to store a lot of objects in a file, and the problem is how to use methodreadObject() get all the objects from this file, since there are no readall() method provide by ObjectInputStream. Below code can help; ObjectIntputStream ois = new ObjectInputStream(&#34;/test.txt&#34;); ArrayList&lt;Student&gt; al = new ArrayList&lt;&gt;(); try{ while(true){ Student s = (Student) ois.readObject(); al.add(s); } }catch(EOFException e){ e.printStackTrace(); } for(Student s : al){ System.out.println(s.getName()+&#34;,&#34; + s.]]></description>
 </item>
 <item>
     <title> Java - Maven error: No complier is provided in this environment</title>
-    <link>https://yangyangsimons.github.io/posts/mavenerror/</link>
+    <link>https://yangyangsimons.github.io/posts/be-java-mavenerror/</link>
     <pubDate>Thu, 13 Jan 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/mavenerror/</guid>
+    <guid>https://yangyangsimons.github.io/posts/be-java-mavenerror/</guid>
     <description><![CDATA[Mac, Maven error: No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK? When i am using command mvn clean verify the error &ldquo;No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK?&rdquo; happens.
 Because the error message is no compiler provided,so first check maven status using command mvn --version : i got the information like this: Apache Maven 3.]]></description>
 </item>
 <item>
     <title>Git - Multiple github account in the same computer</title>
-    <link>https://yangyangsimons.github.io/posts/multiple_github_account/</link>
+    <link>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</link>
     <pubDate>Wed, 05 Jan 2022 01:22:15 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/multiple_github_account/</guid>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</guid>
     <description><![CDATA[Manage multiple github account in the same computer Sometimes we may have two or more github accounts in order to mamnagement different contents, and we need to deal with those accounts in the same computer.
 Delete the global config git config --global --unset &#39;user.name&#39; git config --global --unset &#39;user.email&#39; Generate different SSH key for each account For example, I got two different accounts named &rsquo;example1&rsquo; and &rsquo;example2&rsquo;. So I need to generate SSH key for those accounts respectively.]]></description>
 </item>
 <item>
     <title>Modify files created and modified time</title>
-    <link>https://yangyangsimons.github.io/posts/modifyfilecreatetime/</link>
+    <link>https://yangyangsimons.github.io/posts/tools-modifyfilecreatetime/</link>
     <pubDate>Mon, 20 Dec 2021 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/modifyfilecreatetime/</guid>
+    <guid>https://yangyangsimons.github.io/posts/tools-modifyfilecreatetime/</guid>
     <description><![CDATA[In the Mac OS system, every file have two main time attribute: &ldquo;Create Time&rdquo; and &quot; Modify Time&quot;, they can be check by clicking the file and select get info button.
 Changing those two attributes by using setfile command. setfile -d 'mm/dd/yy hh:mm:ss' filename can change the create date. setfile -m 'mm/dd/yy hh:mm:ss' filename can change the modify date. note: installing Xcode command line tools before using setfile command in terminal.]]></description>
 </item>
 <item>
     <title>Install XAMPP in Mac</title>
-    <link>https://yangyangsimons.github.io/posts/apache_server/</link>
+    <link>https://yangyangsimons.github.io/posts/tools-apache_server/</link>
     <pubDate>Wed, 15 Dec 2021 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/apache_server/</guid>
+    <guid>https://yangyangsimons.github.io/posts/tools-apache_server/</guid>
     <description><![CDATA[Install XAMPP in mac When trying to install XAMPP in mac with a M1 chip. Apache server cann&rsquo;t start. Solution are as follows:
 check the port occupation. sudo lsof -i -n stop the build in Apache server in mac sudo apachectl stop restart XAMPP and run the Apache server, it will works ]]></description>
 </item>

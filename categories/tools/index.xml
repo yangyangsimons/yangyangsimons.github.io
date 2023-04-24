@@ -6,35 +6,35 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
             <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/tools/" rel="self" type="application/rss+xml" /><item>
     <title>Git - Introduce to git branch operation</title>
-    <link>https://yangyangsimons.github.io/posts/git_branch/</link>
+    <link>https://yangyangsimons.github.io/posts/tools-git-git_branch/</link>
     <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/git_branch/</guid>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-git_branch/</guid>
     <description><![CDATA[Introduce to git branch operation 1. What is an branch? Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained. Git&rsquo;s branch function can support the development and version management of multiple functions at the same time. One branch is not affected by other branches, so modification can be made in the same database at the same time.]]></description>
 </item>
 <item>
     <title>Git - How to remove and create SSH key</title>
-    <link>https://yangyangsimons.github.io/posts/github_ssh/</link>
+    <link>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</link>
     <pubDate>Tue, 01 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/github_ssh/</guid>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</guid>
     <description><![CDATA[How to remove and create SSH key create SSH key first step : check the local ssh cd ~/.ssh if there is a ssh key already exist, you will find files like: id_rsa.pub , known_hosts , id_rsa and so forth. second step: create a new ssh key: ssh-keygen -t rsa -b 4096 -C &quot;XXX@example.com&quot; if you already have a ssh key it will prompt Enter file in which to save the key (/Users/lynnyang/.]]></description>
 </item>
 <item>
     <title>Git - Multiple github account in the same computer</title>
-    <link>https://yangyangsimons.github.io/posts/multiple_github_account/</link>
+    <link>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</link>
     <pubDate>Wed, 05 Jan 2022 01:22:15 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/multiple_github_account/</guid>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</guid>
     <description><![CDATA[Manage multiple github account in the same computer Sometimes we may have two or more github accounts in order to mamnagement different contents, and we need to deal with those accounts in the same computer.
 Delete the global config git config --global --unset &#39;user.name&#39; git config --global --unset &#39;user.email&#39; Generate different SSH key for each account For example, I got two different accounts named &rsquo;example1&rsquo; and &rsquo;example2&rsquo;. So I need to generate SSH key for those accounts respectively.]]></description>
 </item>
 <item>
     <title>Modify files created and modified time</title>
-    <link>https://yangyangsimons.github.io/posts/modifyfilecreatetime/</link>
+    <link>https://yangyangsimons.github.io/posts/tools-modifyfilecreatetime/</link>
     <pubDate>Mon, 20 Dec 2021 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/modifyfilecreatetime/</guid>
+    <guid>https://yangyangsimons.github.io/posts/tools-modifyfilecreatetime/</guid>
     <description><![CDATA[In the Mac OS system, every file have two main time attribute: &ldquo;Create Time&rdquo; and &quot; Modify Time&quot;, they can be check by clicking the file and select get info button.
 Changing those two attributes by using setfile command. setfile -d 'mm/dd/yy hh:mm:ss' filename can change the create date. setfile -m 'mm/dd/yy hh:mm:ss' filename can change the modify date. note: installing Xcode command line tools before using setfile command in terminal.]]></description>
 </item>
