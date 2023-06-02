@@ -4,7 +4,17 @@
         <link>https://yangyangsimons.github.io/categories/tools/</link>
         <description>tools - Category - Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/tools/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/tools/" rel="self" type="application/rss+xml" /><item>
+    <title>How to use .gitignore</title>
+    <link>https://yangyangsimons.github.io/tools-git-gitignore/</link>
+    <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/tools-git-gitignore/</guid>
+    <description><![CDATA[What is .gitignore .gitignore is a file that Git uses to determine which files and directories to ignore, and not track, when performing operations. This is particularly useful for excluding files with sensitive data, log files, binary files, or dependency caches that do not need to be versioned and included in the Git repository.
+Here&rsquo;s how to use it:
+Creating a .gitignore file You can create a .gitignore file in the root directory of your repository.]]></description>
+</item>
+<item>
     <title>How to set HomeBrew in an M1 Mac</title>
     <link>https://yangyangsimons.github.io/posts/tools-homebrewset/</link>
     <pubDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</pubDate>

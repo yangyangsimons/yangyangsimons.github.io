@@ -4,7 +4,17 @@
         <link>https://yangyangsimons.github.io/categories/webdevelopment/</link>
         <description>webDevelopment - Category - Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/webdevelopment/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/webdevelopment/" rel="self" type="application/rss+xml" /><item>
+    <title>How to use .gitignore</title>
+    <link>https://yangyangsimons.github.io/tools-git-gitignore/</link>
+    <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/tools-git-gitignore/</guid>
+    <description><![CDATA[What is .gitignore .gitignore is a file that Git uses to determine which files and directories to ignore, and not track, when performing operations. This is particularly useful for excluding files with sensitive data, log files, binary files, or dependency caches that do not need to be versioned and included in the Git repository.
+Here&rsquo;s how to use it:
+Creating a .gitignore file You can create a .gitignore file in the root directory of your repository.]]></description>
+</item>
+<item>
     <title>How to set HomeBrew in an M1 Mac</title>
     <link>https://yangyangsimons.github.io/posts/tools-homebrewset/</link>
     <pubDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</pubDate>
@@ -81,15 +91,6 @@ Because the error message is no compiler provided,so first check maven status us
     <guid>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</guid>
     <description><![CDATA[Manage multiple github account in the same computer Sometimes we may have two or more github accounts in order to mamnagement different contents, and we need to deal with those accounts in the same computer.
 Delete the global config git config --global --unset &#39;user.name&#39; git config --global --unset &#39;user.email&#39; Generate different SSH key for each account For example, I got two different accounts named &rsquo;example1&rsquo; and &rsquo;example2&rsquo;. So I need to generate SSH key for those accounts respectively.]]></description>
-</item>
-<item>
-    <title>Modify files created and modified time</title>
-    <link>https://yangyangsimons.github.io/posts/tools-modifyfilecreatetime/</link>
-    <pubDate>Mon, 20 Dec 2021 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-modifyfilecreatetime/</guid>
-    <description><![CDATA[In the Mac OS system, every file have two main time attribute: &ldquo;Create Time&rdquo; and &quot; Modify Time&quot;, they can be check by clicking the file and select get info button.
-Changing those two attributes by using setfile command. setfile -d 'mm/dd/yy hh:mm:ss' filename can change the create date. setfile -m 'mm/dd/yy hh:mm:ss' filename can change the modify date. note: installing Xcode command line tools before using setfile command in terminal.]]></description>
 </item>
 </channel>
 </rss>
