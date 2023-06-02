@@ -4,7 +4,17 @@
         <link>https://yangyangsimons.github.io/posts/</link>
         <description>All Posts | Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>How to use .gitignore</title>
+    <link>https://yangyangsimons.github.io/posts/tools-git-gitignore/</link>
+    <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/tools-git-gitignore/</guid>
+    <description><![CDATA[What is .gitignore .gitignore is a file that Git uses to determine which files and directories to ignore, and not track, when performing operations. This is particularly useful for excluding files with sensitive data, log files, binary files, or dependency caches that do not need to be versioned and included in the Git repository.
+Here&rsquo;s how to use it:
+Creating a .gitignore file You can create a .gitignore file in the root directory of your repository.]]></description>
+</item>
+<item>
     <title>How to set HomeBrew in an M1 Mac</title>
     <link>https://yangyangsimons.github.io/posts/tools-homebrewset/</link>
     <pubDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</pubDate>
@@ -80,15 +90,6 @@ Why Thread The side-effect of thread, how to avoid this? Attribute, status and l
     <guid>https://yangyangsimons.github.io/posts/be-java-mavenerror/</guid>
     <description><![CDATA[Mac, Maven error: No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK? When i am using command mvn clean verify the error &ldquo;No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK?&rdquo; happens.
 Because the error message is no compiler provided,so first check maven status using command mvn --version : i got the information like this: Apache Maven 3.]]></description>
-</item>
-<item>
-    <title>Git - Multiple github account in the same computer</title>
-    <link>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</link>
-    <pubDate>Wed, 05 Jan 2022 01:22:15 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</guid>
-    <description><![CDATA[Manage multiple github account in the same computer Sometimes we may have two or more github accounts in order to mamnagement different contents, and we need to deal with those accounts in the same computer.
-Delete the global config git config --global --unset &#39;user.name&#39; git config --global --unset &#39;user.email&#39; Generate different SSH key for each account For example, I got two different accounts named &rsquo;example1&rsquo; and &rsquo;example2&rsquo;. So I need to generate SSH key for those accounts respectively.]]></description>
 </item>
 </channel>
 </rss>
