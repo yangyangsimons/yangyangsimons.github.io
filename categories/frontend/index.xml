@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>frontend - Category - Lingyun Yang Tech Blog</title>
+        <link>https://yangyangsimons.github.io/categories/frontend/</link>
+        <description>frontend - Category - Lingyun Yang Tech Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/frontend/" rel="self" type="application/rss+xml" /><item>
+    <title>React useReducer Hook</title>
+    <link>https://yangyangsimons.github.io/posts/fe-react-usereducer/</link>
+    <pubDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/fe-react-usereducer/</guid>
+    <description><![CDATA[Introduction useReducer() is used for state management in React components, providing a more predictable state transition by accepting a state and action in the reducer function.
+Why use useReducer()? useState() is usually the go-to Hook for state management in React. However, for complex state logic involving multiple sub-values or when the next state depends on the previous one, useReducer() might be a more suitable choice. It can also be beneficial when working with global state or when performance optimization is needed.]]></description>
+</item>
+</channel>
+</rss>

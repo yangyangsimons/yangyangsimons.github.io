@@ -4,7 +4,16 @@
         <link>https://yangyangsimons.github.io/posts/</link>
         <description>All Posts | Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>React useReducer Hook</title>
+    <link>https://yangyangsimons.github.io/posts/fe-react-usereducer/</link>
+    <pubDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/fe-react-usereducer/</guid>
+    <description><![CDATA[Introduction useReducer() is used for state management in React components, providing a more predictable state transition by accepting a state and action in the reducer function.
+Why use useReducer()? useState() is usually the go-to Hook for state management in React. However, for complex state logic involving multiple sub-values or when the next state depends on the previous one, useReducer() might be a more suitable choice. It can also be beneficial when working with global state or when performance optimization is needed.]]></description>
+</item>
+<item>
     <title>How to use .gitignore</title>
     <link>https://yangyangsimons.github.io/posts/tools-git-gitignore/</link>
     <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
@@ -81,15 +90,6 @@ Why Thread The side-effect of thread, how to avoid this? Attribute, status and l
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</guid>
     <description><![CDATA[when we use the ObjectInputStream to store a lot of objects in a file, and the problem is how to use methodreadObject() get all the objects from this file, since there are no readall() method provide by ObjectInputStream. Below code can help; ObjectIntputStream ois = new ObjectInputStream(&#34;/test.txt&#34;); ArrayList&lt;Student&gt; al = new ArrayList&lt;&gt;(); try{ while(true){ Student s = (Student) ois.readObject(); al.add(s); } }catch(EOFException e){ e.printStackTrace(); } for(Student s : al){ System.out.println(s.getName()+&#34;,&#34; + s.]]></description>
-</item>
-<item>
-    <title> Java - Maven error: No complier is provided in this environment</title>
-    <link>https://yangyangsimons.github.io/posts/be-java-mavenerror/</link>
-    <pubDate>Thu, 13 Jan 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/be-java-mavenerror/</guid>
-    <description><![CDATA[Mac, Maven error: No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK? When i am using command mvn clean verify the error &ldquo;No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK?&rdquo; happens.
-Because the error message is no compiler provided,so first check maven status using command mvn --version : i got the information like this: Apache Maven 3.]]></description>
 </item>
 </channel>
 </rss>
