@@ -29,6 +29,14 @@
     <description><![CDATA[Introduction useReducer() is used for state management in React components, providing a more predictable state transition by accepting a state and action in the reducer function.]]></description>
 </item>
 <item>
+    <title>Basic Datastructure in JavaScript</title>
+    <link>https://yangyangsimons.github.io/posts/fe-javascript-datastructure/</link>
+    <pubDate>Thu, 22 Jun 2023 23:48:04 &#43;0800</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/fe-javascript-datastructure/</guid>
+    <description><![CDATA[Introduction This article attempts to list the built-in data structures available in JavaScript and what properties they have.]]></description>
+</item>
+<item>
     <title>About gitignore</title>
     <link>https://yangyangsimons.github.io/posts/tools-git-gitignore/</link>
     <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
@@ -75,14 +83,6 @@
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-git-git_branch/</guid>
     <description><![CDATA[Introduce to git branch operation 1. What is an branch? Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained.]]></description>
-</item>
-<item>
-    <title>Java - servialVersionUID&amp;transient</title>
-    <link>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</link>
-    <pubDate>Sat, 19 Feb 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</guid>
-    <description><![CDATA[1. we use ObjectOutputStream to serialize an object, but when we change the class file which the object belongs to, there will be a InvalidClassException; Thrown when the Serialization runtime detects one of the following problems with a Class.]]></description>
 </item>
 </channel>
 </rss>
