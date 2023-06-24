@@ -21,26 +21,6 @@
 </description>
         </item>
         <item>
-        <title>Java - servialVersionUID&amp;transient</title>
-        <link>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</link>
-        <pubDate>Sat, 19 Feb 2022 03:49:55 +0100</pubDate>
-        
-        <guid>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</guid>
-        <description>&lt;h4 id=&#34;1-we-use-objectoutputstream-to-serialize-an-object-but-when-we-change-the-class-file-which-the-object-belongs-to-there-will-be-a-invalidclassexception&#34;&gt;1. we use ObjectOutputStream to serialize an object, but when we change the class file which the object belongs to, there will be a &lt;code&gt;InvalidClassException&lt;/code&gt;;&lt;/h4&gt;
-&lt;p&gt;Thrown when the Serialization runtime detects one of the following problems with a Class.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The serial version of the class does not match that of the class descriptor read from the stream.&lt;/li&gt;
-&lt;li&gt;The class contains unknown datatypes.&lt;/li&gt;
-&lt;li&gt;The class does not have an accessible no-arg constructor.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;How to fix this exception?
-Give the class a fixed serivalVersionUID.
-&lt;code&gt;private static final long servialVersionUID = 41L;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;2-if-we-do-not-want-serialize-one-of-the-property-of-the-class-use-transient&#34;&gt;2. If we do not want serialize one of the property of the class, use &lt;code&gt;transient&lt;/code&gt;.&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;private transient int age;&lt;/code&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Java - Introduce to Java Thread</title>
         <link>https://yangyangsimons.github.io/posts/be-java-javathread/</link>
         <pubDate>Sat, 12 Feb 2022 03:49:55 +0100</pubDate>
