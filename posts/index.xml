@@ -4,7 +4,15 @@
         <link>https://yangyangsimons.github.io/posts/</link>
         <description>All Posts | Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Sat, 24 Jun 2023 17:10:49 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Fe React SyntheticEvent</title>
+    <link>https://yangyangsimons.github.io/posts/fe-react-syntheticevent/</link>
+    <pubDate>Sat, 24 Jun 2023 17:10:49 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/fe-react-syntheticevent/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>React useReducer Hook</title>
     <link>https://yangyangsimons.github.io/posts/fe-react-usereducer/</link>
     <pubDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</pubDate>
@@ -83,14 +91,6 @@ The serial version of the class does not match that of the class descriptor read
     <guid>https://yangyangsimons.github.io/posts/be-java-javathread/</guid>
     <description><![CDATA[Introduce to Java Thread The question mainly focused on this paper are: 为什么需要多线程？ 多线程带来了什么问题，如何避免？ 线程的属性、状态、生命周期详解 什么是ThreadLocal？ 为什么需要线程池？ 线程池的构造函数中的参数都是什么含义？
 Why Thread The side-effect of thread, how to avoid this? Attribute, status and life circle of thread What is ThreadLocal Why Thread pool The meaning of parameters in Thread pool ]]></description>
-</item>
-<item>
-    <title>Git - How to remove and create SSH key</title>
-    <link>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</link>
-    <pubDate>Tue, 01 Feb 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</guid>
-    <description><![CDATA[How to remove and create SSH key create SSH key first step : check the local ssh cd ~/.ssh if there is a ssh key already exist, you will find files like: id_rsa.pub , known_hosts , id_rsa and so forth. second step: create a new ssh key: ssh-keygen -t rsa -b 4096 -C &quot;XXX@example.com&quot; if you already have a ssh key it will prompt Enter file in which to save the key (/Users/lynnyang/.]]></description>
 </item>
 </channel>
 </rss>
