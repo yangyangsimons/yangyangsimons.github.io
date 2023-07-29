@@ -4,7 +4,15 @@
         <link>https://yangyangsimons.github.io/tags/</link>
         <description>Tags - Tag - Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>React</title>
+    <link>https://yangyangsimons.github.io/tags/react/</link>
+    <pubDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/tags/react/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>JavaScript</title>
     <link>https://yangyangsimons.github.io/tags/javascript/</link>
     <pubDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</pubDate>
