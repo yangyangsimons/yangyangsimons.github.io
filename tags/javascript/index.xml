@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>JavaScript - Tag - Lingyun Yang Tech Blog</title>
+        <link>https://yangyangsimons.github.io/tags/javascript/</link>
+        <description>JavaScript - Tag - Lingyun Yang Tech Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/javascript/" rel="self" type="application/rss+xml" /><item>
+    <title>Equality comparison in JavaScript:(==)&amp;(===)</title>
+    <link>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</link>
+    <pubDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</guid>
+    <description><![CDATA[Overall, JavaScript have three differenct value-comparison operations: == &mdash; loose equality; === &mdash; strict equality; Object.is() very uncommon usage. Let&rsquo;s look at the difference between these three operations: === will compare two things without type conversion. which means the first step is check the type of two things.
+If typeof(x) is not typeof(y) then return false If x, y are Number then compare the value of those two number. Special case: NaN === NaN -&gt; return false, +0 === -0-&gt; return true, null === undefined -&gt; return false.]]></description>
+</item>
+</channel>
+</rss>

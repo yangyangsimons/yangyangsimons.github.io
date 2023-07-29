@@ -13,5 +13,14 @@
     <description><![CDATA[Introduction useReducer() is used for state management in React components, providing a more predictable state transition by accepting a state and action in the reducer function.
 Why use useReducer()? useState() is usually the go-to Hook for state management in React. However, for complex state logic involving multiple sub-values or when the next state depends on the previous one, useReducer() might be a more suitable choice. It can also be beneficial when working with global state or when performance optimization is needed.]]></description>
 </item>
+<item>
+    <title>Equality comparison in JavaScript:(==)&amp;(===)</title>
+    <link>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</link>
+    <pubDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</guid>
+    <description><![CDATA[Overall, JavaScript have three differenct value-comparison operations: == &mdash; loose equality; === &mdash; strict equality; Object.is() very uncommon usage. Let&rsquo;s look at the difference between these three operations: === will compare two things without type conversion. which means the first step is check the type of two things.
+If typeof(x) is not typeof(y) then return false If x, y are Number then compare the value of those two number. Special case: NaN === NaN -&gt; return false, +0 === -0-&gt; return true, null === undefined -&gt; return false.]]></description>
+</item>
 </channel>
 </rss>

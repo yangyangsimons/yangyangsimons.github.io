@@ -34,6 +34,15 @@ How to fix this problem? I fixed this problem by editing the path, creating the 
 cd /opt/homebrew/bin/ PATH=$PATH:/opt/homebrew/bin cd touch .zshrc echo export PATH=$PATH:/opt/homebrew/bin &gt;&gt; .zshrc ]]></description>
 </item>
 <item>
+    <title>Equality comparison in JavaScript:(==)&amp;(===)</title>
+    <link>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</link>
+    <pubDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</guid>
+    <description><![CDATA[Overall, JavaScript have three differenct value-comparison operations: == &mdash; loose equality; === &mdash; strict equality; Object.is() very uncommon usage. Let&rsquo;s look at the difference between these three operations: === will compare two things without type conversion. which means the first step is check the type of two things.
+If typeof(x) is not typeof(y) then return false If x, y are Number then compare the value of those two number. Special case: NaN === NaN -&gt; return false, +0 === -0-&gt; return true, null === undefined -&gt; return false.]]></description>
+</item>
+<item>
     <title>How to understand Information Theory</title>
     <link>https://yangyangsimons.github.io/posts/ml-information_theory/</link>
     <pubDate>Sun, 02 Oct 2022 13:31:38 &#43;0000</pubDate>
@@ -82,14 +91,6 @@ Why Thread The side-effect of thread, how to avoid this? Attribute, status and l
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</guid>
     <description><![CDATA[How to remove and create SSH key create SSH key first step : check the local ssh cd ~/.ssh if there is a ssh key already exist, you will find files like: id_rsa.pub , known_hosts , id_rsa and so forth. second step: create a new ssh key: ssh-keygen -t rsa -b 4096 -C &quot;XXX@example.com&quot; if you already have a ssh key it will prompt Enter file in which to save the key (/Users/lynnyang/.]]></description>
-</item>
-<item>
-    <title>Java - Read all object use ObjectInputStream</title>
-    <link>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</link>
-    <pubDate>Thu, 20 Jan 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</guid>
-    <description><![CDATA[when we use the ObjectInputStream to store a lot of objects in a file, and the problem is how to use methodreadObject() get all the objects from this file, since there are no readall() method provide by ObjectInputStream. Below code can help; ObjectIntputStream ois = new ObjectInputStream(&#34;/test.txt&#34;); ArrayList&lt;Student&gt; al = new ArrayList&lt;&gt;(); try{ while(true){ Student s = (Student) ois.readObject(); al.add(s); } }catch(EOFException e){ e.printStackTrace(); } for(Student s : al){ System.out.println(s.getName()+&#34;,&#34; + s.]]></description>
 </item>
 </channel>
 </rss>

@@ -34,6 +34,15 @@ How to fix this problem? I fixed this problem by editing the path, creating the 
 cd /opt/homebrew/bin/ PATH=$PATH:/opt/homebrew/bin cd touch .zshrc echo export PATH=$PATH:/opt/homebrew/bin &gt;&gt; .zshrc ]]></description>
 </item>
 <item>
+    <title>Equality comparison in JavaScript:(==)&amp;(===)</title>
+    <link>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</link>
+    <pubDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</guid>
+    <description><![CDATA[Overall, JavaScript have three differenct value-comparison operations: == &mdash; loose equality; === &mdash; strict equality; Object.is() very uncommon usage. Let&rsquo;s look at the difference between these three operations: === will compare two things without type conversion. which means the first step is check the type of two things.
+If typeof(x) is not typeof(y) then return false If x, y are Number then compare the value of those two number. Special case: NaN === NaN -&gt; return false, +0 === -0-&gt; return true, null === undefined -&gt; return false.]]></description>
+</item>
+<item>
     <title>Java - Variables</title>
     <link>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</link>
     <pubDate>Fri, 22 Apr 2022 01:45:06 &#43;0100</pubDate>
@@ -82,15 +91,6 @@ Why Thread The side-effect of thread, how to avoid this? Attribute, status and l
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</guid>
     <description><![CDATA[when we use the ObjectInputStream to store a lot of objects in a file, and the problem is how to use methodreadObject() get all the objects from this file, since there are no readall() method provide by ObjectInputStream. Below code can help; ObjectIntputStream ois = new ObjectInputStream(&#34;/test.txt&#34;); ArrayList&lt;Student&gt; al = new ArrayList&lt;&gt;(); try{ while(true){ Student s = (Student) ois.readObject(); al.add(s); } }catch(EOFException e){ e.printStackTrace(); } for(Student s : al){ System.out.println(s.getName()+&#34;,&#34; + s.]]></description>
-</item>
-<item>
-    <title> Java - Maven error: No complier is provided in this environment</title>
-    <link>https://yangyangsimons.github.io/posts/be-java-mavenerror/</link>
-    <pubDate>Thu, 13 Jan 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/be-java-mavenerror/</guid>
-    <description><![CDATA[Mac, Maven error: No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK? When i am using command mvn clean verify the error &ldquo;No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK?&rdquo; happens.
-Because the error message is no compiler provided,so first check maven status using command mvn --version : i got the information like this: Apache Maven 3.]]></description>
 </item>
 </channel>
 </rss>
