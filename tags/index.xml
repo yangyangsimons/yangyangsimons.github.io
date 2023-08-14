@@ -4,20 +4,36 @@
         <link>https://yangyangsimons.github.io/tags/</link>
         <description>Tags - Tag - Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Tue, 11 Jul 2023 00:51:41 &#43;0800</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>JavaScript</title>
+    <link>https://yangyangsimons.github.io/tags/javascript/</link>
+    <pubDate>Tue, 11 Jul 2023 00:51:41 &#43;0800</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/tags/javascript/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>React</title>
     <link>https://yangyangsimons.github.io/tags/react/</link>
-    <pubDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</pubDate>
+    <pubDate>Tue, 11 Jul 2023 00:51:41 &#43;0800</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/tags/react/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>JavaScript</title>
-    <link>https://yangyangsimons.github.io/tags/javascript/</link>
-    <pubDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</pubDate>
+    <title>Git</title>
+    <link>https://yangyangsimons.github.io/tags/git/</link>
+    <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/tags/javascript/</guid>
+    <guid>https://yangyangsimons.github.io/tags/git/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>LAMP</title>
+    <link>https://yangyangsimons.github.io/tags/lamp/</link>
+    <pubDate>Wed, 15 Dec 2021 03:49:55 &#43;0100</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/tags/lamp/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

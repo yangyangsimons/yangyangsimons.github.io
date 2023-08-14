@@ -4,7 +4,16 @@
         <link>https://yangyangsimons.github.io/categories/frontend/</link>
         <description>frontend - Category - Lingyun Yang Tech Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/frontend/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Tue, 11 Jul 2023 00:51:41 &#43;0800</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/frontend/" rel="self" type="application/rss+xml" /><item>
+    <title>Basic usage of Redux Toolkit </title>
+    <link>https://yangyangsimons.github.io/posts/fe-react-rtk/</link>
+    <pubDate>Tue, 11 Jul 2023 00:51:41 &#43;0800</pubDate>
+    <author>Lingyun Yang</author>
+    <guid>https://yangyangsimons.github.io/posts/fe-react-rtk/</guid>
+    <description><![CDATA[Installation. I use npm to install RTK and react-redux. npm install @reduxjs/toolkit react-redux
+1. Start with createSlice(). The example provide on the Rredux Toolkit official website is a little bit bizarre, as it started by configuring the store and providing the store to the App component. However, if we are gonna build an application from scratch, the first thing we do is createSlice() as it helps us to set up the slice of state, action creators, action types, and reducers in Redux.]]></description>
+</item>
+<item>
     <title>React useReducer Hook</title>
     <link>https://yangyangsimons.github.io/posts/fe-react-usereducer/</link>
     <pubDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</pubDate>
