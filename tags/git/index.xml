@@ -10,7 +10,7 @@
     <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-git-git_branch/</guid>
-    <description><![CDATA[Introduce to git branch operation 1. What is an branch? Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained. Git&rsquo;s branch function can support the development and version management of multiple functions at the same time. One branch is not affected by other branches, so modification can be made in the same database at the same time.]]></description>
+    <description><![CDATA[Introduce to git branch operation 1. What is an branch? Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained.]]></description>
 </item>
 </channel>
 </rss>

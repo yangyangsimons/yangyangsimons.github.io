@@ -10,8 +10,7 @@
     <pubDate>Tue, 11 Jul 2023 00:51:41 &#43;0800</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/fe-react-rtk/</guid>
-    <description><![CDATA[Installation. I use npm to install RTK and react-redux. npm install @reduxjs/toolkit react-redux
-1. Start with createSlice(). The example provide on the Rredux Toolkit official website is a little bit bizarre, as it started by configuring the store and providing the store to the App component. However, if we are gonna build an application from scratch, the first thing we do is createSlice() as it helps us to set up the slice of state, action creators, action types, and reducers in Redux.]]></description>
+    <description><![CDATA[Installation. I use npm to install RTK and react-redux. npm install @reduxjs/toolkit react-redux]]></description>
 </item>
 <item>
     <title>React useReducer Hook</title>
@@ -19,8 +18,7 @@
     <pubDate>Thu, 22 Jun 2023 22:28:49 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/fe-react-usereducer/</guid>
-    <description><![CDATA[Introduction useReducer() is used for state management in React components, providing a more predictable state transition by accepting a state and action in the reducer function.
-Why use useReducer()? useState() is usually the go-to Hook for state management in React. However, for complex state logic involving multiple sub-values or when the next state depends on the previous one, useReducer() might be a more suitable choice. It can also be beneficial when working with global state or when performance optimization is needed.]]></description>
+    <description><![CDATA[Introduction useReducer() is used for state management in React components, providing a more predictable state transition by accepting a state and action in the reducer function.]]></description>
 </item>
 <item>
     <title>How to use .gitignore</title>
@@ -28,9 +26,7 @@ Why use useReducer()? useState() is usually the go-to Hook for state management 
     <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-git-gitignore/</guid>
-    <description><![CDATA[What is .gitignore .gitignore is a file that Git uses to determine which files and directories to ignore, and not track, when performing operations. This is particularly useful for excluding files with sensitive data, log files, binary files, or dependency caches that do not need to be versioned and included in the Git repository.
-Here&rsquo;s how to use it:
-Creating a .gitignore file You can create a .gitignore file in the root directory of your repository.]]></description>
+    <description><![CDATA[What is .gitignore .gitignore is a file that Git uses to determine which files and directories to ignore, and not track, when performing operations.]]></description>
 </item>
 <item>
     <title>How to set HomeBrew in an M1 Mac</title>
@@ -38,9 +34,7 @@ Creating a .gitignore file You can create a .gitignore file in the root director
     <pubDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-homebrewset/</guid>
-    <description><![CDATA[What problems happens here? When I installed brew following the instruction from the Homebrew official website, the error zsh: command not found: brew happens.
-How to fix this problem? I fixed this problem by editing the path, creating the missing .zshrc file, and exploring the path to this new file.
-cd /opt/homebrew/bin/ PATH=$PATH:/opt/homebrew/bin cd touch .zshrc echo export PATH=$PATH:/opt/homebrew/bin &gt;&gt; .zshrc ]]></description>
+    <description><![CDATA[What problems happens here? When I installed brew following the instruction from the Homebrew official website, the error zsh: command not found: brew happens.]]></description>
 </item>
 <item>
     <title>Equality comparison in JavaScript:(==)&amp;(===)</title>
@@ -48,8 +42,7 @@ cd /opt/homebrew/bin/ PATH=$PATH:/opt/homebrew/bin cd touch .zshrc echo export P
     <pubDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</guid>
-    <description><![CDATA[Overall, JavaScript have three differenct value-comparison operations: == &mdash; loose equality; === &mdash; strict equality; Object.is() very uncommon usage. Let&rsquo;s look at the difference between these three operations: === will compare two things without type conversion. which means the first step is check the type of two things.
-If typeof(x) is not typeof(y) then return false If x, y are Number then compare the value of those two number. Special case: NaN === NaN -&gt; return false, +0 === -0-&gt; return true, null === undefined -&gt; return false.]]></description>
+    <description><![CDATA[Overall, JavaScript have three differenct value-comparison operations: == &mdash; loose equality; === &mdash; strict equality; Object.]]></description>
 </item>
 <item>
     <title>Java - Variables</title>
@@ -57,7 +50,7 @@ If typeof(x) is not typeof(y) then return false If x, y are Number then compare 
     <pubDate>Fri, 22 Apr 2022 01:45:06 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</guid>
-    <description><![CDATA[Variable define style It&rsquo;s considered good style to declare variables as closely as possible to the point where they are first used. The keyword final indicates that you can assign to the variable once, and then its value is set once and for all. It&rsquo;s customary to name constants in all uppercase. ]]></description>
+    <description><![CDATA[Variable define style It&rsquo;s considered good style to declare variables as closely as possible to the point where they are first used.]]></description>
 </item>
 <item>
     <title>Git - Introduce to git branch operation</title>
@@ -65,7 +58,7 @@ If typeof(x) is not typeof(y) then return false If x, y are Number then compare 
     <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-git-git_branch/</guid>
-    <description><![CDATA[Introduce to git branch operation 1. What is an branch? Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained. Git&rsquo;s branch function can support the development and version management of multiple functions at the same time. One branch is not affected by other branches, so modification can be made in the same database at the same time.]]></description>
+    <description><![CDATA[Introduce to git branch operation 1. What is an branch? Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained.]]></description>
 </item>
 <item>
     <title>Java - servialVersionUID&amp;transient</title>
@@ -73,8 +66,7 @@ If typeof(x) is not typeof(y) then return false If x, y are Number then compare 
     <pubDate>Sat, 19 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</guid>
-    <description><![CDATA[1. we use ObjectOutputStream to serialize an object, but when we change the class file which the object belongs to, there will be a InvalidClassException; Thrown when the Serialization runtime detects one of the following problems with a Class.
-The serial version of the class does not match that of the class descriptor read from the stream. The class contains unknown datatypes. The class does not have an accessible no-arg constructor.]]></description>
+    <description><![CDATA[1. we use ObjectOutputStream to serialize an object, but when we change the class file which the object belongs to, there will be a InvalidClassException; Thrown when the Serialization runtime detects one of the following problems with a Class.]]></description>
 </item>
 <item>
     <title>Java - Introduce to Java Thread</title>
@@ -82,8 +74,7 @@ The serial version of the class does not match that of the class descriptor read
     <pubDate>Sat, 12 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/be-java-javathread/</guid>
-    <description><![CDATA[Introduce to Java Thread The question mainly focused on this paper are: 为什么需要多线程？ 多线程带来了什么问题，如何避免？ 线程的属性、状态、生命周期详解 什么是ThreadLocal？ 为什么需要线程池？ 线程池的构造函数中的参数都是什么含义？
-Why Thread The side-effect of thread, how to avoid this? Attribute, status and life circle of thread What is ThreadLocal Why Thread pool The meaning of parameters in Thread pool ]]></description>
+    <description><![CDATA[Introduce to Java Thread The question mainly focused on this paper are: 为什么需要多线程？ 多线程带来了什么问题，如何避免？ 线程的属性、状态、生命周期详解 什么是ThreadLocal？ 为什么需要线程池？ 线程池的构造函数中的参数都是什么含义？]]></description>
 </item>
 <item>
     <title>Git - How to remove and create SSH key</title>
@@ -91,7 +82,7 @@ Why Thread The side-effect of thread, how to avoid this? Attribute, status and l
     <pubDate>Tue, 01 Feb 2022 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</guid>
-    <description><![CDATA[How to remove and create SSH key create SSH key first step : check the local ssh cd ~/.ssh if there is a ssh key already exist, you will find files like: id_rsa.pub , known_hosts , id_rsa and so forth. second step: create a new ssh key: ssh-keygen -t rsa -b 4096 -C &quot;XXX@example.com&quot; if you already have a ssh key it will prompt Enter file in which to save the key (/Users/lynnyang/.]]></description>
+    <description><![CDATA[How to remove and create SSH key create SSH key first step : check the local ssh cd ~/.]]></description>
 </item>
 </channel>
 </rss>

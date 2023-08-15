@@ -10,8 +10,7 @@
     <pubDate>Wed, 15 Dec 2021 03:49:55 &#43;0100</pubDate>
     <author>Lingyun Yang</author>
     <guid>https://yangyangsimons.github.io/posts/tools-apache_server/</guid>
-    <description><![CDATA[Install XAMPP in mac When trying to install XAMPP in mac with a M1 chip. Apache server cann&rsquo;t start. Solution are as follows:
-check the port occupation. sudo lsof -i -n stop the build in Apache server in mac sudo apachectl stop restart XAMPP and run the Apache server, it will works ]]></description>
+    <description><![CDATA[Install XAMPP in mac When trying to install XAMPP in mac with a M1 chip.]]></description>
 </item>
 </channel>
 </rss>
