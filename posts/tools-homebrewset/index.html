@@ -112,12 +112,12 @@
 <p>When I installed brew following the instruction from the Homebrew official website, the error <code>zsh: command not found: brew</code> happens.</p>
 <h3 id="how-to-fix-this-problem">How to fix this problem?</h3>
 <p>I fixed this problem by editing the path, creating the missing <code>.zshrc</code> file, and exploring the path to this new file.</p>
-<pre tabindex="0"><code>cd /opt/homebrew/bin/
-PATH=$PATH:/opt/homebrew/bin
-cd
-touch .zshrc
-echo export PATH=$PATH:/opt/homebrew/bin &gt;&gt; .zshrc
-</code></pre></div><div class="post-footer" id="post-footer">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /opt/homebrew/bin/
+</span></span><span style="display:flex;"><span>PATH<span style="color:#f92672">=</span>$PATH:/opt/homebrew/bin
+</span></span><span style="display:flex;"><span>cd
+</span></span><span style="display:flex;"><span>touch .zshrc
+</span></span><span style="display:flex;"><span>echo export PATH<span style="color:#f92672">=</span>$PATH:/opt/homebrew/bin &gt;&gt; .zshrc
+</span></span></code></pre></div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
