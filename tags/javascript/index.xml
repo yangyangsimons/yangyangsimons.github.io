@@ -1,24 +1,90 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>JavaScript - Tag - Lingyun Yang Tech Blog</title>
+        <title>JavaScript on Lingyun Yang | Tech Website</title>
         <link>https://yangyangsimons.github.io/tags/javascript/</link>
-        <description>JavaScript - Tag - Lingyun Yang Tech Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Thu, 22 Jun 2023 23:48:04 &#43;0800</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/javascript/" rel="self" type="application/rss+xml" /><item>
-    <title>Basic Datastructure in JavaScript</title>
-    <link>https://yangyangsimons.github.io/posts/fe-javascript-datastructure/</link>
-    <pubDate>Thu, 22 Jun 2023 23:48:04 &#43;0800</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/fe-javascript-datastructure/</guid>
-    <description><![CDATA[Introduction This article attempts to list the built-in data structures available in JavaScript and what properties they have.]]></description>
-</item>
-<item>
-    <title>Equality comparison in JavaScript:(==)&amp;(===)</title>
-    <link>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</link>
-    <pubDate>Mon, 30 Jan 2023 00:04:04 &#43;0800</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</guid>
-    <description><![CDATA[Overall, JavaScript have three differenct value-comparison operations: == &mdash; loose equality; === &mdash; strict equality; Object.]]></description>
-</item>
-</channel>
+        <description>Recent content in JavaScript on Lingyun Yang | Tech Website</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Lingyun Yang</copyright>
+        <lastBuildDate>Thu, 22 Jun 2023 23:48:04 +0800</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Basic Datastructure in JavaScript</title>
+        <link>https://yangyangsimons.github.io/posts/fe-javascript-datastructure/</link>
+        <pubDate>Thu, 22 Jun 2023 23:48:04 +0800</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/fe-javascript-datastructure/</guid>
+        <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This article attempts to list the built-in data structures available in JavaScript and what properties they have. How to use those built-in data structure to build other common data structures are also included.&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+</description>
+        </item>
+        <item>
+        <title>Equality comparison in JavaScript:(==)&amp;(===)</title>
+        <link>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</link>
+        <pubDate>Mon, 30 Jan 2023 00:04:04 +0800</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/fe-equality_comparasion/</guid>
+        <description>&lt;h3 id=&#34;overall-javascript-have-three-differenct-value-comparison-operations&#34;&gt;Overall, JavaScript have three differenct value-comparison operations:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;==&lt;/code&gt; &amp;mdash; loose equality;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;===&lt;/code&gt; &amp;mdash; strict equality;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Object.is()&lt;/code&gt; very uncommon usage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lets-look-at-the-difference-between-these-three-operations&#34;&gt;Let&amp;rsquo;s look at the difference between these three operations:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;===&lt;/code&gt; will compare two things without type conversion. which means the first step is check the type of two things.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If &lt;code&gt;typeof(x)&lt;/code&gt; is not &lt;code&gt;typeof(y)&lt;/code&gt; then &lt;code&gt;return false&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If x, y are &lt;code&gt;Number&lt;/code&gt; then compare the value of those two number.&lt;/li&gt;
+&lt;li&gt;Special case: &lt;code&gt;NaN === NaN&lt;/code&gt; -&amp;gt; &lt;code&gt;return false&lt;/code&gt;, &lt;code&gt;+0 === -0&lt;/code&gt;-&amp;gt; &lt;code&gt;return true&lt;/code&gt;, &lt;code&gt;null === undefined&lt;/code&gt; -&amp;gt; &lt;code&gt;return false&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;==&lt;/code&gt; will do a type conversion when comparing two things;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If &lt;code&gt;typeof(x)&lt;/code&gt; is &lt;code&gt;typeof(y)&lt;/code&gt; then compare value;
+&lt;ul&gt;
+&lt;li&gt;Object and Symbol: return true only when both operands reference the same object or same Symbol.&lt;/li&gt;
+&lt;li&gt;String: return true only when both operands have the same characters in same order;&lt;/li&gt;
+&lt;li&gt;Boolean, Number, BigInt, Symbol follow the same rule as bothe equal to another.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Type conversion rule:
+&lt;ul&gt;
+&lt;li&gt;If one is Symbol another not, &lt;code&gt;return false&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;If one is Boolean another not, convert true to 1 and false to 0;&lt;/li&gt;
+&lt;li&gt;If one is String another is BigInt, convert String to BigInt using &lt;code&gt;Bigint()&lt;/code&gt;, if conversion failed &lt;code&gt;return false&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;If one is String another is Number, convert String to BigInt using &lt;code&gt;Number()&lt;/code&gt;, if conversion failed &lt;code&gt;return false&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;If one of the an object and other is a primitive, convert the object to a primitive;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NaN == NaN&lt;/code&gt; and &lt;code&gt;+0 == -0&lt;/code&gt; is the same as &lt;code&gt;===&lt;/code&gt;, but &lt;code&gt;null == undefined&lt;/code&gt; -&amp;gt; &lt;code&gt;return true&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Object.is()&lt;/code&gt; is almost the same as strict equality &lt;code&gt;===&lt;/code&gt;, the diffrences are&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Object.is(NaN, NaN) // true&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Object.is(+0, -0) // false&lt;/code&gt;;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-usage-of-comparison-operation&#34;&gt;The Usage of comparison operation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Strict equality is almost always the correct comparison operation to use. Because it does not implement type conversion, so it is faster than loose equality;&lt;/li&gt;
+&lt;li&gt;The built in methods including:  &lt;code&gt;Array.prototype.indexOf()&lt;/code&gt;, &lt;code&gt;Array.prototype.lastIndexOf()&lt;/code&gt;, &lt;code&gt;TypedArray.prototype.indexOf()&lt;/code&gt;, &lt;code&gt;TypedArray.prototype.lastIndexOf()&lt;/code&gt; are all using strict euqality.&lt;/li&gt;
+&lt;li&gt;When doing some legal check, undefined and null, using loose euqality is Ok.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;mdn web docs.(2023).Equality comparisons and sameness. Retrieved from &lt;a class=&#34;link&#34; href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ECMA262. (2023). &lt;a class=&#34;link&#34; href=&#34;https://tc39.es/ecma262/multipage/abstract-operations.html#sec-islooselyequal&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://tc39.es/ecma262/multipage/abstract-operations.html#sec-islooselyequal&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

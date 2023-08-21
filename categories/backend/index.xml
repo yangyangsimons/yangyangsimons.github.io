@@ -1,56 +1,185 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>backend - Category - Lingyun Yang Tech Blog</title>
+        <title>backend on Lingyun Yang | Tech Website</title>
         <link>https://yangyangsimons.github.io/categories/backend/</link>
-        <description>backend - Category - Lingyun Yang Tech Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 22 Apr 2022 01:45:06 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/backend/" rel="self" type="application/rss+xml" /><item>
-    <title>Java - Variables</title>
-    <link>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</link>
-    <pubDate>Fri, 22 Apr 2022 01:45:06 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</guid>
-    <description><![CDATA[Variable define style It&rsquo;s considered good style to declare variables as closely as possible to the point where they are first used.]]></description>
-</item>
-<item>
-    <title>Java - servialVersionUID&amp;transient</title>
-    <link>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</link>
-    <pubDate>Sat, 19 Feb 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</guid>
-    <description><![CDATA[1. we use ObjectOutputStream to serialize an object, but when we change the class file which the object belongs to, there will be a InvalidClassException; Thrown when the Serialization runtime detects one of the following problems with a Class.]]></description>
-</item>
-<item>
-    <title>Java - Introduce to Java Thread</title>
-    <link>https://yangyangsimons.github.io/posts/be-java-javathread/</link>
-    <pubDate>Sat, 12 Feb 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/be-java-javathread/</guid>
-    <description><![CDATA[Introduce to Java Thread The question mainly focused on this paper are: 为什么需要多线程？ 多线程带来了什么问题，如何避免？ 线程的属性、状态、生命周期详解 什么是ThreadLocal？ 为什么需要线程池？ 线程池的构造函数中的参数都是什么含义？]]></description>
-</item>
-<item>
-    <title>Java - Read all object use ObjectInputStream</title>
-    <link>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</link>
-    <pubDate>Thu, 20 Jan 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</guid>
-    <description><![CDATA[when we use the ObjectInputStream to store a lot of objects in a file, and the problem is how to use methodreadObject() get all the objects from this file, since there are no readall() method provide by ObjectInputStream.]]></description>
-</item>
-<item>
-    <title> Java - Maven error: No complier is provided in this environment</title>
-    <link>https://yangyangsimons.github.io/posts/be-java-mavenerror/</link>
-    <pubDate>Thu, 13 Jan 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/be-java-mavenerror/</guid>
-    <description><![CDATA[Mac, Maven error: No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK?]]></description>
-</item>
-<item>
-    <title>Install XAMPP in Mac</title>
-    <link>https://yangyangsimons.github.io/posts/tools-apache_server/</link>
-    <pubDate>Wed, 15 Dec 2021 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-apache_server/</guid>
-    <description><![CDATA[Install XAMPP in mac When trying to install XAMPP in mac with a M1 chip.]]></description>
-</item>
-</channel>
+        <description>Recent content in backend on Lingyun Yang | Tech Website</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Lingyun Yang</copyright>
+        <lastBuildDate>Fri, 22 Apr 2022 01:45:06 +0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/backend/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Java - Variables</title>
+        <link>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</link>
+        <pubDate>Fri, 22 Apr 2022 01:45:06 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/be-java-java-varibale-notes/</guid>
+        <description>&lt;h1 id=&#34;variable-define-style&#34;&gt;Variable define style&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;It&amp;rsquo;s considered good style to declare variables as closely as possible to the point where they are first used.&lt;/li&gt;
+&lt;li&gt;The keyword &lt;code&gt;final&lt;/code&gt; indicates that you can assign to the variable once, and then its value is set once and for all. It&amp;rsquo;s customary to name constants in all uppercase.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>Java - servialVersionUID&amp;transient</title>
+        <link>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</link>
+        <pubDate>Sat, 19 Feb 2022 03:49:55 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/be-java-servialversionuidtransient/</guid>
+        <description>&lt;h4 id=&#34;1-we-use-objectoutputstream-to-serialize-an-object-but-when-we-change-the-class-file-which-the-object-belongs-to-there-will-be-a-invalidclassexception&#34;&gt;1. we use ObjectOutputStream to serialize an object, but when we change the class file which the object belongs to, there will be a &lt;code&gt;InvalidClassException&lt;/code&gt;;&lt;/h4&gt;
+&lt;p&gt;Thrown when the Serialization runtime detects one of the following problems with a Class.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The serial version of the class does not match that of the class descriptor read from the stream.&lt;/li&gt;
+&lt;li&gt;The class contains unknown datatypes.&lt;/li&gt;
+&lt;li&gt;The class does not have an accessible no-arg constructor.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;How to fix this exception?
+Give the class a fixed serivalVersionUID.
+&lt;code&gt;private static final long servialVersionUID = 41L;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2-if-we-do-not-want-serialize-one-of-the-property-of-the-class-use-transient&#34;&gt;2. If we do not want serialize one of the property of the class, use &lt;code&gt;transient&lt;/code&gt;.&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;private transient int age;&lt;/code&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Java - Introduce to Java Thread</title>
+        <link>https://yangyangsimons.github.io/posts/be-java-javathread/</link>
+        <pubDate>Sat, 12 Feb 2022 03:49:55 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/be-java-javathread/</guid>
+        <description>&lt;h1 id=&#34;introduce-to-java-thread&#34;&gt;Introduce to Java Thread&lt;/h1&gt;
+&lt;p&gt;The question mainly focused on this paper are:
+为什么需要多线程？
+多线程带来了什么问题，如何避免？
+线程的属性、状态、生命周期详解
+什么是ThreadLocal？
+为什么需要线程池？
+线程池的构造函数中的参数都是什么含义？&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Why Thread&lt;/li&gt;
+&lt;li&gt;The side-effect of thread, how to avoid this?&lt;/li&gt;
+&lt;li&gt;Attribute, status and life circle of thread&lt;/li&gt;
+&lt;li&gt;What is ThreadLocal&lt;/li&gt;
+&lt;li&gt;Why Thread pool&lt;/li&gt;
+&lt;li&gt;The meaning of parameters in Thread pool&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>Java - Read all object use ObjectInputStream</title>
+        <link>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</link>
+        <pubDate>Thu, 20 Jan 2022 03:49:55 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/be-java-read-all-object-use-objectinputstream/</guid>
+        <description>&lt;h1 id=&#34;when-we-use-the-objectinputstream-to-store-a-lot-of-objects-in-a-file-and-the-problem-is-how-to-use-methodreadobject-get-all-the-objects-from-this-file-since-there-are-no-readall-method-provide-by-objectinputstream-below-code-can-help&#34;&gt;when we use the ObjectInputStream to store a lot of objects in a file, and the problem is how to use method&lt;code&gt;readObject()&lt;/code&gt; get all the objects from this file, since there are no &lt;code&gt;readall()&lt;/code&gt; method provide by ObjectInputStream. Below code can help;&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ObjectIntputStream&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ois&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ObjectInputStream&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/test.txt&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ArrayList&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Student&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;al&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ArrayList&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;try&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Student&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Student&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ois&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;readObject&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;al&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;EOFException&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;printStackTrace&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Student&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;al&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()+&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;,&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getAge&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;())&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title> Java - Maven error: No complier is provided in this environment</title>
+        <link>https://yangyangsimons.github.io/posts/be-java-mavenerror/</link>
+        <pubDate>Thu, 13 Jan 2022 03:49:55 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/be-java-mavenerror/</guid>
+        <description>&lt;h1 id=&#34;mac-maven-error-no-complier-is-provided-in-this-environmentperhaps-you-are-running-on-a-jre-rather-than-a-jdk&#34;&gt;Mac, Maven error: No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK?&lt;/h1&gt;
+&lt;p&gt;When i am using command &lt;code&gt;mvn clean verify&lt;/code&gt; the error &amp;ldquo;No complier is provided in this environment.Perhaps you are running on a JRE rather than a JDK?&amp;rdquo; happens.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Because the error message is no compiler provided,so first check maven status using command &lt;code&gt;mvn --version&lt;/code&gt; : i got the information like this:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apache Maven 3.8.1 (05c21c65bdfed0f71a2f2ada8b84da59348c4c5d)&lt;br&gt;
+Maven home: /Users/lynnyang/work/apache-maven-3.8.1&lt;br&gt;
+Java version: 1.8.0_331, vendor: Oracle Corporation, runtime: /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home&lt;br&gt;
+Default locale: en_GB, platform encoding: UTF-8&lt;br&gt;
+OS name: &amp;ldquo;mac os x&amp;rdquo;, version: &amp;ldquo;12.4&amp;rdquo;, arch: &amp;ldquo;x86_64&amp;rdquo;, family: &amp;ldquo;mac&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From this I can see this is not the target java.
+2. check java status using command &lt;code&gt;/usr/libexec/java_home -V&lt;/code&gt; and got information below:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Matching Java Virtual Machines (2):&lt;br&gt;
+1.8.331.09 (x86_64) &amp;ldquo;Oracle Corporation&amp;rdquo; - &amp;ldquo;Java&amp;rdquo; /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home&lt;br&gt;
+1.8.0_271 (x86_64) &amp;ldquo;Oracle Corporation&amp;rdquo; - &amp;ldquo;Java SE 8&amp;rdquo; /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home&lt;br&gt;
+/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The second one is what I want here. so set the &lt;code&gt;JAVA_HOME&lt;/code&gt; to the right PATH using:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Check the mvn status again by &lt;code&gt;mvn clean verify&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;add-this-command-to-the-file-bash_profile-to-solve-this-problem-permanently&#34;&gt;Add this command to the file &lt;code&gt;bash_profile&lt;/code&gt; to solve this problem permanently,&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vim ~/.bash_profile
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;add this command to the file.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;then &lt;code&gt;:wq&lt;/code&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Install XAMPP in Mac</title>
+        <link>https://yangyangsimons.github.io/posts/tools-apache_server/</link>
+        <pubDate>Wed, 15 Dec 2021 03:49:55 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/tools-apache_server/</guid>
+        <description>&lt;h1 id=&#34;install-xampp-in-mac&#34;&gt;Install XAMPP in mac&lt;/h1&gt;
+&lt;p&gt;When trying to install XAMPP in mac with a M1 chip. Apache server cann&amp;rsquo;t start.
+Solution are as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;check the port occupation.
+&lt;code&gt;sudo lsof -i -n &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;stop the build in Apache server in mac
+&lt;code&gt;sudo apachectl stop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;restart XAMPP and run the Apache server, it will works&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

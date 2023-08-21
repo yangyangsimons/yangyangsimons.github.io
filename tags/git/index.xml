@@ -1,40 +1,266 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Git - Tag - Lingyun Yang Tech Blog</title>
+        <title>Git on Lingyun Yang | Tech Website</title>
         <link>https://yangyangsimons.github.io/tags/git/</link>
-        <description>Git - Tag - Lingyun Yang Tech Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/git/" rel="self" type="application/rss+xml" /><item>
-    <title>About gitignore</title>
-    <link>https://yangyangsimons.github.io/posts/tools-git-gitignore/</link>
-    <pubDate>Fri, 02 Jun 2023 17:06:44 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-git-gitignore/</guid>
-    <description><![CDATA[What is .gitignore .gitignore is a file that Git uses to determine which files and directories to ignore, and not track, when performing operations.]]></description>
-</item>
-<item>
-    <title>Git branch operation</title>
-    <link>https://yangyangsimons.github.io/posts/tools-git-git_branch/</link>
-    <pubDate>Fri, 25 Feb 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-git-git_branch/</guid>
-    <description><![CDATA[Introduce to git branch operation 1. What is an branch? Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained.]]></description>
-</item>
-<item>
-    <title>Git - How to remove and create SSH key</title>
-    <link>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</link>
-    <pubDate>Tue, 01 Feb 2022 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</guid>
-    <description><![CDATA[How to remove and create SSH key create SSH key first step : check the local ssh cd ~/.]]></description>
-</item>
-<item>
-    <title>Multiple github account in the same computer</title>
-    <link>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</link>
-    <pubDate>Wed, 05 Jan 2022 01:22:15 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</guid>
-    <description><![CDATA[Manage multiple github accounts in the same computer Sometimes we may have two or more github accounts in order to mamnagement different contents, and we need to deal with those accounts in the same computer.]]></description>
-</item>
-</channel>
+        <description>Recent content in Git on Lingyun Yang | Tech Website</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Lingyun Yang</copyright>
+        <lastBuildDate>Fri, 02 Jun 2023 17:06:44 +0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About gitignore</title>
+        <link>https://yangyangsimons.github.io/posts/tools-git-gitignore/</link>
+        <pubDate>Fri, 02 Jun 2023 17:06:44 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/tools-git-gitignore/</guid>
+        <description>&lt;h2 id=&#34;what-is-gitignore&#34;&gt;What is &lt;code&gt;.gitignore&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;.gitignore&lt;/code&gt; is a file that Git uses to determine which files and directories to ignore, and not track, when performing operations. This is particularly useful for excluding files with sensitive data, log files, binary files, or dependency caches that do not need to be versioned and included in the Git repository.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how to use it:&lt;/p&gt;
+&lt;h2 id=&#34;creating-a-gitignore-file&#34;&gt;Creating a &lt;code&gt;.gitignore&lt;/code&gt; file&lt;/h2&gt;
+&lt;p&gt;You can create a &lt;code&gt;.gitignore&lt;/code&gt; file in the root directory of your repository. This file does not have an extension and the name should be written exactly as &lt;code&gt;.gitignore&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;touch .gitignore
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;editing-the-gitignore-file&#34;&gt;Editing the &lt;code&gt;.gitignore&lt;/code&gt; file&lt;/h2&gt;
+&lt;p&gt;While you can edit it by a text editor, but a command line will make it easier. Using &lt;code&gt;echo&lt;/code&gt; command to append anything to the &lt;code&gt;.gitignore&lt;/code&gt; file. For example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;echo &amp;#39;RepositoryName/&amp;#39; &amp;gt;&amp;gt; .gitignore 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This will ignore the entire repository named &lt;code&gt;RepositoryName&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Another example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;echo &amp;#39;filename.doc&amp;#39; &amp;gt;&amp;gt; .gitignore 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This will ignore the the file named &lt;code&gt;filename.doc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to ignore the file with a specific suffix, then using this command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;echo &amp;#39;*.suffix&amp;#39; &amp;gt;&amp;gt; .gitignore 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Comments can be included in the &lt;code&gt;.gitignore&lt;/code&gt; file by starting a line with &lt;code&gt;#&lt;/code&gt;.
+You can negate a pattern by starting a line with &lt;code&gt;!&lt;/code&gt;. This can be used to make Git ignore all files of a certain type, except for a few specific ones.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Git branch operation</title>
+        <link>https://yangyangsimons.github.io/posts/tools-git-git_branch/</link>
+        <pubDate>Fri, 25 Feb 2022 03:49:55 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/tools-git-git_branch/</guid>
+        <description>&lt;h1 id=&#34;introduce-to-git-branch-operation&#34;&gt;Introduce to git branch operation&lt;/h1&gt;
+&lt;h2 id=&#34;1-what-is-an-branch&#34;&gt;1. What is an branch?&lt;/h2&gt;
+&lt;p&gt;Sometimes there may be multiple people developing functions or fixing bugs for a same software at the same time, there may be multiple Release versions, and each version needs to be maintained.
+Git&amp;rsquo;s &lt;code&gt;branch&lt;/code&gt; function can support the development and version management of multiple functions at the same time.
+One branch is not affected by other branches, so modification can be made in the same database at the same time.&lt;/p&gt;
+&lt;h2 id=&#34;2-create-a-branch&#34;&gt;2. Create a branch&lt;/h2&gt;
+&lt;p&gt;use the command &lt;code&gt;git branch&lt;/code&gt; to create a new branch&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git branch &amp;lt;branch name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;3-query-branch&#34;&gt;3. Query branch&lt;/h2&gt;
+&lt;p&gt;use &lt;code&gt;git branch&lt;/code&gt; command without any parameter, it will return all branches for this git repository, the one has a symbol &lt;code&gt;*&lt;/code&gt; is the current branch&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;% git branch
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;* &amp;lt;branch name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;brnach name2&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;4-swtich-to-a-branch-and-push-from-this-branch&#34;&gt;4. swtich to a branch and push from this branch&lt;/h2&gt;
+&lt;p&gt;use command &lt;code&gt;git branch &amp;lt;branch filename&amp;gt;&lt;/code&gt; swtich to a branch and then use &lt;code&gt;git add&lt;/code&gt; and &lt;code&gt;git commit&lt;/code&gt; and then push.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git branch &amp;lt;branch filename&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -v
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -u origin &amp;lt;branch filename&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Git - How to remove and create SSH key</title>
+        <link>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</link>
+        <pubDate>Tue, 01 Feb 2022 03:49:55 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/tools-git-github_ssh/</guid>
+        <description>&lt;h1 id=&#34;how-to-remove-and-create-ssh-key&#34;&gt;How to remove and create SSH key&lt;/h1&gt;
+&lt;h3 id=&#34;create-ssh-key&#34;&gt;create SSH key&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;first step : check the local ssh
+&lt;code&gt;cd ~/.ssh&lt;/code&gt;
+if there is a ssh key already exist, you will find files like: &lt;code&gt;id_rsa.pub&lt;/code&gt; , &lt;code&gt;known_hosts&lt;/code&gt; , &lt;code&gt;id_rsa&lt;/code&gt; and so forth.&lt;/li&gt;
+&lt;li&gt;second step: create a new ssh key:
+&lt;code&gt;ssh-keygen -t rsa -b 4096 -C &amp;quot;XXX@example.com&amp;quot;&lt;/code&gt;
+if you already have a ssh key it will prompt &lt;em&gt;Enter file in which to save the key &lt;code&gt;(/Users/lynnyang/.ssh/id_rsa)&lt;/code&gt;&lt;/em&gt; just input &lt;em&gt;y(yes)&lt;/em&gt;.
+In case you will forget the password, do not enter any password there.&lt;/li&gt;
+&lt;li&gt;copy the ssh key and add it in the github page of &amp;ldquo;SSH and GPG keys&amp;rdquo;
+&lt;code&gt;cat cat id_rsa.pub&lt;/code&gt;
+then copy all the character into &amp;ldquo;SSH and GPG keys&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;Done.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>Multiple github account in the same computer</title>
+        <link>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</link>
+        <pubDate>Wed, 05 Jan 2022 01:22:15 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/tools-git-multiple_github_account/</guid>
+        <description>&lt;h1 id=&#34;manage-multiple-github-accounts-in-the-same-computer&#34;&gt;Manage multiple github accounts in the same computer&lt;/h1&gt;
+&lt;p&gt;Sometimes we may have two or more github accounts in order to mamnagement different contents, and we need to deal with those accounts in the same computer.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;delete-the-global-config&#34;&gt;Delete the global config&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global --unset &lt;span class=&#34;s1&#34;&gt;&amp;#39;user.name&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global --unset &lt;span class=&#34;s1&#34;&gt;&amp;#39;user.email&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;generate-different-ssh-key-for-each-account&#34;&gt;Generate different SSH key for each account&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For example, I got two different accounts named &amp;rsquo;example1&amp;rsquo; and &amp;rsquo;example2&amp;rsquo;. So I need to generate SSH key for those accounts respectively. Note, they must be given different names to avoid cover each other.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen -t rsa -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;example1@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;this will generate two files in &lt;code&gt;~/.ssh&lt;/code&gt; directory which are &lt;code&gt;id_rsa&lt;/code&gt; and &lt;code&gt;id_rsa.pub&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen -t rsa -f ~/.ssh/id_rsa_2 -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;example2@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;this will generate two files in  &lt;code&gt;~/.ssh&lt;/code&gt; directory which are &lt;code&gt;id_rsa_2&lt;/code&gt; and &lt;code&gt;id_rsa_2.pub&lt;/code&gt;.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;add-the-ssh-key-in-github-account-this-can-refer-to-another-blog-which-can-be-found-in-my-blogs&#34;&gt;Add the SSH key in github account, this can refer to another blog which can be found in my blogs&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;modify-the-config-file&#34;&gt;Modify the &lt;code&gt;config&lt;/code&gt; file&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;use terminal to open the config file&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;open ~/.ssh/config
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;if this file not exist, create it before modify it.
+if this file exist, then modify it as below(mainly &lt;code&gt;Host&lt;/code&gt; and &lt;code&gt;IdentityFile&lt;/code&gt;):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;# example1&lt;br&gt;
+Host github_example1&lt;br&gt;
+HostName ssh.github.com&lt;br&gt;
+User git&lt;br&gt;
+IdentityFile ~/.ssh/id_rsa&lt;/p&gt;
+&lt;p&gt;# example2&lt;br&gt;
+Host github_example2&lt;br&gt;
+HostName ssh.github.com&lt;br&gt;
+User git&lt;br&gt;
+IdentityFile ~/.ssh/id_rsa_2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;use the command below to confirm the modify is successful:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -T git@github_example1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -T git@github_example2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;set-the-local-directory-config&#34;&gt;Set the local directory config&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Get into the local directory using gitbash tool.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;github_example1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config user.email &lt;span class=&#34;s2&#34;&gt;&amp;#34;example1@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;link-the-local-directory-with-github-directory&#34;&gt;Link the local directory with github directory&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git remote add origin git@github_example1:XXXX/example.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;use &lt;code&gt;git remote -v&lt;/code&gt; confirm the link status&lt;/p&gt;
+&lt;h3 id=&#34;end&#34;&gt;End&lt;/h3&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

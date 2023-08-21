@@ -1,16 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>machineLearning - Category - Lingyun Yang Tech Blog</title>
+        <title>machineLearning on Lingyun Yang | Tech Website</title>
         <link>https://yangyangsimons.github.io/categories/machinelearning/</link>
-        <description>machineLearning - Category - Lingyun Yang Tech Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Sun, 02 Oct 2022 13:31:38 &#43;0000</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/machinelearning/" rel="self" type="application/rss+xml" /><item>
-    <title>How to understand Information Theory</title>
-    <link>https://yangyangsimons.github.io/posts/ml-information_theory/</link>
-    <pubDate>Sun, 02 Oct 2022 13:31:38 &#43;0000</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/ml-information_theory/</guid>
-    <description><![CDATA[this is the test ]]></description>
-</item>
-</channel>
+        <description>Recent content in machineLearning on Lingyun Yang | Tech Website</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Lingyun Yang</copyright>
+        <lastBuildDate>Sun, 02 Oct 2022 13:31:38 +0000</lastBuildDate><atom:link href="https://yangyangsimons.github.io/categories/machinelearning/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to understand Information Theory</title>
+        <link>https://yangyangsimons.github.io/posts/ml-information_theory/</link>
+        <pubDate>Sun, 02 Oct 2022 13:31:38 +0000</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/ml-information_theory/</guid>
+        <description>&lt;h3 id=&#34;this-is-the-test&#34;&gt;this is the test&lt;/h3&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,24 +1,58 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>env - Tag - Lingyun Yang Tech Blog</title>
+        <title>env on Lingyun Yang | Tech Website</title>
         <link>https://yangyangsimons.github.io/tags/env/</link>
-        <description>env - Tag - Lingyun Yang Tech Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lingyunyanglyy@gmail.com (Lingyun Yang)</managingEditor>
-            <webMaster>lingyunyanglyy@gmail.com (Lingyun Yang)</webMaster><lastBuildDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/env/" rel="self" type="application/rss+xml" /><item>
-    <title>How to set HomeBrew in an M1 Mac</title>
-    <link>https://yangyangsimons.github.io/posts/tools-homebrewset/</link>
-    <pubDate>Tue, 25 Apr 2023 01:01:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-homebrewset/</guid>
-    <description><![CDATA[What problems happens here? When I installed brew following the instruction from the Homebrew official website, the error zsh: command not found: brew happens.]]></description>
-</item>
-<item>
-    <title>Install XAMPP in Mac</title>
-    <link>https://yangyangsimons.github.io/posts/tools-apache_server/</link>
-    <pubDate>Wed, 15 Dec 2021 03:49:55 &#43;0100</pubDate>
-    <author>Lingyun Yang</author>
-    <guid>https://yangyangsimons.github.io/posts/tools-apache_server/</guid>
-    <description><![CDATA[Install XAMPP in mac When trying to install XAMPP in mac with a M1 chip.]]></description>
-</item>
-</channel>
+        <description>Recent content in env on Lingyun Yang | Tech Website</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Lingyun Yang</copyright>
+        <lastBuildDate>Tue, 25 Apr 2023 01:01:55 +0100</lastBuildDate><atom:link href="https://yangyangsimons.github.io/tags/env/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to set HomeBrew in an M1 Mac</title>
+        <link>https://yangyangsimons.github.io/posts/tools-homebrewset/</link>
+        <pubDate>Tue, 25 Apr 2023 01:01:55 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/tools-homebrewset/</guid>
+        <description>&lt;h3 id=&#34;what-problems-happens-here&#34;&gt;What problems happens here?&lt;/h3&gt;
+&lt;p&gt;When I installed brew following the instruction from the Homebrew official website, the error &lt;code&gt;zsh: command not found: brew&lt;/code&gt; happens.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-fix-this-problem&#34;&gt;How to fix this problem?&lt;/h3&gt;
+&lt;p&gt;I fixed this problem by editing the path, creating the missing &lt;code&gt;.zshrc&lt;/code&gt; file, and exploring the path to this new file.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /opt/homebrew/bin/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PATH&lt;/span&gt;:/opt/homebrew/bin
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;touch .zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PATH&lt;/span&gt;:/opt/homebrew/bin &amp;gt;&amp;gt; .zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Install XAMPP in Mac</title>
+        <link>https://yangyangsimons.github.io/posts/tools-apache_server/</link>
+        <pubDate>Wed, 15 Dec 2021 03:49:55 +0100</pubDate>
+        
+        <guid>https://yangyangsimons.github.io/posts/tools-apache_server/</guid>
+        <description>&lt;h1 id=&#34;install-xampp-in-mac&#34;&gt;Install XAMPP in mac&lt;/h1&gt;
+&lt;p&gt;When trying to install XAMPP in mac with a M1 chip. Apache server cann&amp;rsquo;t start.
+Solution are as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;check the port occupation.
+&lt;code&gt;sudo lsof -i -n &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;stop the build in Apache server in mac
+&lt;code&gt;sudo apachectl stop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;restart XAMPP and run the Apache server, it will works&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
