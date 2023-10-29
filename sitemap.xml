@@ -2,26 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yangyangsimons.github.io/posts/fe-react-rtk/</loc>
-    <lastmod>2023-07-11T00:51:41+08:00</lastmod>
-  </url><url>
     <loc>https://yangyangsimons.github.io/categories/</loc>
-    <lastmod>2023-07-11T00:51:41+08:00</lastmod>
+    <lastmod>2023-10-29T19:01:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyangsimons.github.io/posts/tools-git-collaboration/</loc>
+    <lastmod>2023-10-29T19:01:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyangsimons.github.io/tags/git/</loc>
+    <lastmod>2023-10-29T19:01:15+08:00</lastmod>
   </url><url>
     <loc>https://yangyangsimons.github.io/</loc>
-    <lastmod>2023-07-11T00:51:41+08:00</lastmod>
+    <lastmod>2023-10-29T19:01:15+08:00</lastmod>
   </url><url>
     <loc>https://yangyangsimons.github.io/posts/</loc>
+    <lastmod>2023-10-29T19:01:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyangsimons.github.io/tags/</loc>
+    <lastmod>2023-10-29T19:01:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyangsimons.github.io/categories/webdevelopment/</loc>
+    <lastmod>2023-10-29T19:01:15+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyangsimons.github.io/posts/useful_shortcuts/</loc>
+    <lastmod>2023-10-08T08:52:10+08:00</lastmod>
+  </url><url>
+    <loc>https://yangyangsimons.github.io/posts/fe-react-rtk/</loc>
     <lastmod>2023-07-11T00:51:41+08:00</lastmod>
   </url><url>
     <loc>https://yangyangsimons.github.io/tags/react/</loc>
     <lastmod>2023-07-11T00:51:41+08:00</lastmod>
   </url><url>
-    <loc>https://yangyangsimons.github.io/tags/</loc>
-    <lastmod>2023-07-11T00:51:41+08:00</lastmod>
-  </url><url>
-    <loc>https://yangyangsimons.github.io/categories/webdevelopment/</loc>
-    <lastmod>2023-07-11T00:51:41+08:00</lastmod>
+    <loc>https://yangyangsimons.github.io/posts/fe-react-syntheticevent/</loc>
+    <lastmod>2023-06-24T17:10:49+01:00</lastmod>
   </url><url>
     <loc>https://yangyangsimons.github.io/about/</loc>
     <lastmod>2023-06-22T23:49:15+01:00</lastmod>
@@ -36,9 +48,6 @@
     <lastmod>2023-06-22T23:48:04+08:00</lastmod>
   </url><url>
     <loc>https://yangyangsimons.github.io/posts/tools-git-gitignore/</loc>
-    <lastmod>2023-06-02T17:06:44+01:00</lastmod>
-  </url><url>
-    <loc>https://yangyangsimons.github.io/tags/git/</loc>
     <lastmod>2023-06-02T17:06:44+01:00</lastmod>
   </url><url>
     <loc>https://yangyangsimons.github.io/tags/env/</loc>
