@@ -13,36 +13,52 @@
         <pubDate>Sun, 29 Oct 2023 19:01:15 +0800</pubDate>
         
         <guid>https://yangyangsimons.github.io/posts/tools-git-collaboration/</guid>
-        <description>&lt;p&gt;Collaborating on GitHub while ensuring that you only update specific parts of a repository related to your work involves several steps. Following a structured workflow can help maintain a clean, organized repository while minimizing conflicts.&lt;/p&gt;
+        <description>&lt;p&gt;Collaborating on GitHub requires careful management to ensure that updates to a repository reflect specific, targeted changes. A structured workflow is crucial for maintaining an organized repository and minimizing conflicts. Here’s a step-by-step guide to streamline your collaboration process.&lt;/p&gt;
 &lt;h3 id=&#34;1-fork-and-clone-the-repositor&#34;&gt;1. Fork and Clone the Repositor&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;git clone https://github.com/your-organization/your-repository.git&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;2-set-up-git-configuration&#34;&gt;2. Set Up Git Configuration&lt;/h3&gt;
+&lt;p&gt;Begin by forking the target repository and then cloning it to your local machine:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/your-organization/your-repository.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;2-set-up-git-configuration&#34;&gt;2. Set Up Git Configuration&lt;/h3&gt;
+&lt;p&gt;Configure your Git user information. This is important for attribution of your contributions:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &amp;#34;Your Name&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email &amp;#34;your.email@example.com&amp;#34;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;Your Name&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email &lt;span class=&#34;s2&#34;&gt;&amp;#34;your.email@example.com&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;3-create-a-new-branch&#34;&gt;3. Create a New Branch&lt;/h3&gt;
-&lt;p&gt;Create a new branch for the feature you are working on. It&amp;rsquo;s a good practice to create a new branch for each new feature or bug fix:
-&lt;code&gt;git checkout -b feature/your-feature-name&lt;/code&gt;
-This command is short for:&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s best practice to create a new branch for each feature or bug fix. This keeps changes organized and isolated:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b feature/your-feature-name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This is a shorthand for:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git branch feature/your-feature-name
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git branch feature/your-feature-name
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout feature/your-feature-name
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;4-making-change-and-committing-changes&#34;&gt;4. Making change and committing changes&lt;/h3&gt;
-&lt;p&gt;Checking current status,and add changes&lt;/p&gt;
+&lt;p&gt;Check your changes and stage them for a commit:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -61,23 +77,24 @@ This command is short for:&lt;/p&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;#check status
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#check status&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git status
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# add files
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# add files&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add filename1 filename2
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# or to add all changed files
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or to add all changed files&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Commit the staged changes with a descriptive message:
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &amp;#34;Description of the changes made&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Commit the staged changes with a descriptive message:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Description of the changes made&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# if you work on vim editor
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# if you work on vim editor&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -v 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;5-pushing-changes&#34;&gt;5. Pushing Changes&lt;/h3&gt;
+&lt;p&gt;Push your changes to the remote repository:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -85,16 +102,17 @@ This command is short for:&lt;/p&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# or to set the upstream branch
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or to set the upstream branch&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push --set-upstream origin feature/your-feature-name
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;6-creating-a-pull-request&#34;&gt;6. Creating a Pull Request&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;- On GitHub, navigate to the repository and click on &amp;quot;Pull requests&amp;quot;.
-- Click &amp;quot;New pull request&amp;quot;, select their branch from the dropdown, and click &amp;quot;Create pull request&amp;quot;.
-- Fill out the title and description, then click &amp;quot;Create pull request&amp;quot;.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;On GitHub, navigate to the repository and click on &amp;ldquo;Pull requests&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;New pull request&amp;rdquo;, select their branch from the dropdown, and click &amp;ldquo;Create pull request&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Fill out the title and description, then click &amp;ldquo;Create pull request&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;7-addressing-feedback&#34;&gt;7. Addressing Feedback&lt;/h3&gt;
 &lt;p&gt;Team members might provide feedback on the pull request. They can make additional changes on their local machine on the same branch, stage, commit, and push those changes. The pull request will update automatically&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -105,63 +123,60 @@ This command is short for:&lt;/p&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Make additional changes, then:
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Make additional changes, then:&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &amp;#34;Addressing feedback&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Addressing feedback&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;8-merging-the-pull-request&#34;&gt;8. Merging the Pull Request&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;Once the pull request has been reviewed and approved, it can be merged on GitHub. Click &amp;quot;Merge pull request&amp;quot; then &amp;quot;Confirm merge&amp;quot;.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once the pull request has been reviewed and approved, it can be merged on GitHub. Click &amp;ldquo;Merge pull request&amp;rdquo; then &amp;ldquo;Confirm merge&amp;rdquo;.&lt;/p&gt;
 &lt;h3 id=&#34;9-syncing-local-repository&#34;&gt;9. Syncing Local Repository&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;After the pull request has been merged, they should sync their local repository with the remote repository to get the latest changes:
-```
-# Switch to the main or development branch
-git checkout main
-# Pull the latest changes
-git pull
-
-```&lt;/code&gt;&lt;/pre&gt;
-</description>
-        </item>
-        <item>
-        <title>Useful shortcuts of macOS system in daily developing work</title>
-        <link>https://yangyangsimons.github.io/posts/useful_shortcuts/</link>
-        <pubDate>Sun, 08 Oct 2023 08:52:10 +0800</pubDate>
-        
-        <guid>https://yangyangsimons.github.io/posts/useful_shortcuts/</guid>
-        <description>&lt;h2 id=&#34;why-using-shortcuts-in-daily-developing-work&#34;&gt;Why using shortcuts in daily developing work.&lt;/h2&gt;
-&lt;p&gt;The main reason of using shortcuts in daily work is because that we do want automate our workflow, and improve productivity (saving life).&lt;/p&gt;
-&lt;h2 id=&#34;whats-included-in-this-blog&#34;&gt;What&amp;rsquo;s included in this Blog.&lt;/h2&gt;
+&lt;p&gt;After the pull request has been merged, they should sync their local repository with the remote repository to get the latest changes:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# Switch to the main or development branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    git checkout main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# Pull the latest changes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    git pull
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;keeping-your-repository-up-to-date&#34;&gt;Keeping Your Repository Up-to-Date&lt;/h2&gt;
+&lt;p&gt;Before starting any new changes, ensure your local repository is synchronized with the upstream repository:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Command line shortcuts.&lt;/li&gt;
-&lt;li&gt;VS code shortcuts.&lt;/li&gt;
-&lt;li&gt;IDEA shortcuts.&lt;/li&gt;
+&lt;li&gt;Sync your fork:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;comandline-shortcuts&#34;&gt;Comandline shortcuts.&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Delete.
-&lt;ol&gt;
-&lt;li&gt;Delete one character to the right &lt;code&gt;Ctrl(^) + D&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;Delete from the ccursor to the beginning of the line &lt;code&gt;Ctrl(^) + U&lt;/code&gt;;
-This operation is a little bit tricky, by default, if you are using &lt;code&gt;zsh&lt;/code&gt;, the &lt;code&gt;Ctrl(^) + U&lt;/code&gt; is kill-while-line, so if you would like to backward-kill-line, add &lt;code&gt;bindkey \^U backward-kill-line&lt;/code&gt; to your &lt;code&gt;.zshrc&lt;/code&gt; file.&lt;/li&gt;
-&lt;li&gt;Delete from the cursor to the end of the line:&lt;code&gt;Ctrl(^) + K&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;Delete the word to the left of the cursor &lt;code&gt;Ctrl(^) + w&lt;/code&gt;;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    git remote -v // check the remote setting
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    git set-url upstream // using this &lt;span class=&#34;nb&#34;&gt;command&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; you want to chang to another url.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    git fetch upstream
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    git merge upstream/master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;Push synced changes to:
+&lt;code&gt;git push origin master&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;Move
-&lt;ol&gt;
-&lt;li&gt;move to the start of line &lt;code&gt;Ctrl + a&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;move to the end of line - &lt;code&gt;Ctrl + e&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;vs-code-shortcuts&#34;&gt;VS code shortcuts&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Change centent at multiple lines:
-using Multi-cursor selection: press&lt;code&gt;cmd + D&lt;/code&gt; repeatedly, each time you press the shortcuts, it will match and select one same content you want to change. After all the content are selected, change it to what you want.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&#34;additional-tips&#34;&gt;Additional tips&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;View commit history with &lt;code&gt;git log --oneline&lt;/code&gt;.
+Discard local changes with &lt;code&gt;git reset or git checkout&lt;/code&gt;.
+Reset to a specific commit with &lt;code&gt;git reset --hard origin/master&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By following these steps, you can efficiently collaborate on projects using Git and GitHub while keeping your repository clean and organized.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -367,14 +382,6 @@ using Multi-cursor selection: press&lt;code&gt;cmd + D&lt;/code&gt; repeatedly, 
     &gt;https://redux-toolkit.js.org/tutorials/quick-start&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        </item>
-        <item>
-        <title>Fe React SyntheticEvent</title>
-        <link>https://yangyangsimons.github.io/posts/fe-react-syntheticevent/</link>
-        <pubDate>Sat, 24 Jun 2023 17:10:49 +0100</pubDate>
-        
-        <guid>https://yangyangsimons.github.io/posts/fe-react-syntheticevent/</guid>
-        <description></description>
         </item>
         <item>
         <title>React useReducer Hook</title>

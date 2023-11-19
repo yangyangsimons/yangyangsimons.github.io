@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Collaborating on GitHub while ensuring that you only update specific parts of a repository related to your work involves several steps. Following a structured workflow can help maintain a clean, organized repository while minimizing conflicts.
-1. Fork and Clone the Repositor git clone https://github.com/your-organization/your-repository.git
-2. Set Up Git Configuration 1 2 git config --global user.name &amp;#34;Your Name&amp;#34; git config --global user.email &amp;#34;your.email@example.com&amp;#34; 3. Create a New Branch Create a new branch for the feature you are working on.'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Collaborating on GitHub requires careful management to ensure that updates to a repository reflect specific, targeted changes. A structured workflow is crucial for maintaining an organized repository and minimizing conflicts. Here’s a step-by-step guide to streamline your collaboration process.
+1. Fork and Clone the Repositor Begin by forking the target repository and then cloning it to your local machine:
+1 git clone https://github.com/your-organization/your-repository.git 2. Set Up Git Configuration Configure your Git user information.'>
 <title>Collaborating with Git and GitHub -- partial update</title>
 
 <link rel='canonical' href='https://yangyangsimons.github.io/posts/tools-git-collaboration/'>
 
 <link rel="stylesheet" href="/scss/style.min.f2f21d9d961219a01621263328d8997e1ae3b4f0371d455628df1fdc27d57bd6.css"><meta property='og:title' content='Collaborating with Git and GitHub -- partial update'>
-<meta property='og:description' content='Collaborating on GitHub while ensuring that you only update specific parts of a repository related to your work involves several steps. Following a structured workflow can help maintain a clean, organized repository while minimizing conflicts.
-1. Fork and Clone the Repositor git clone https://github.com/your-organization/your-repository.git
-2. Set Up Git Configuration 1 2 git config --global user.name &amp;#34;Your Name&amp;#34; git config --global user.email &amp;#34;your.email@example.com&amp;#34; 3. Create a New Branch Create a new branch for the feature you are working on.'>
+<meta property='og:description' content='Collaborating on GitHub requires careful management to ensure that updates to a repository reflect specific, targeted changes. A structured workflow is crucial for maintaining an organized repository and minimizing conflicts. Here’s a step-by-step guide to streamline your collaboration process.
+1. Fork and Clone the Repositor Begin by forking the target repository and then cloning it to your local machine:
+1 git clone https://github.com/your-organization/your-repository.git 2. Set Up Git Configuration Configure your Git user information.'>
 <meta property='og:url' content='https://yangyangsimons.github.io/posts/tools-git-collaboration/'>
 <meta property='og:site_name' content='Lingyun Yang | Tech Website'>
 <meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='Git' /><meta property='article:published_time' content='2023-10-29T19:01:15&#43;08:00'/><meta property='article:modified_time' content='2023-10-29T19:01:15&#43;08:00'/>
 <meta name="twitter:title" content="Collaborating with Git and GitHub -- partial update">
-<meta name="twitter:description" content="Collaborating on GitHub while ensuring that you only update specific parts of a repository related to your work involves several steps. Following a structured workflow can help maintain a clean, organized repository while minimizing conflicts.
-1. Fork and Clone the Repositor git clone https://github.com/your-organization/your-repository.git
-2. Set Up Git Configuration 1 2 git config --global user.name &amp;#34;Your Name&amp;#34; git config --global user.email &amp;#34;your.email@example.com&amp;#34; 3. Create a New Branch Create a new branch for the feature you are working on.">
+<meta name="twitter:description" content="Collaborating on GitHub requires careful management to ensure that updates to a repository reflect specific, targeted changes. A structured workflow is crucial for maintaining an organized repository and minimizing conflicts. Here’s a step-by-step guide to streamline your collaboration process.
+1. Fork and Clone the Repositor Begin by forking the target repository and then cloning it to your local machine:
+1 git clone https://github.com/your-organization/your-repository.git 2. Set Up Git Configuration Configure your Git user information.">
     </head>
     <body class="
     article-page
@@ -254,6 +254,8 @@
         <li><a href="#9-syncing-local-repository">9. Syncing Local Repository</a></li>
       </ol>
     </li>
+    <li><a href="#keeping-your-repository-up-to-date">Keeping Your Repository Up-to-Date</a></li>
+    <li><a href="#additional-tips">Additional tips</a></li>
   </ol>
 </nav>
         </div>
@@ -319,36 +321,52 @@
     <section class="article-content">
     
     
-    <p>Collaborating on GitHub while ensuring that you only update specific parts of a repository related to your work involves several steps. Following a structured workflow can help maintain a clean, organized repository while minimizing conflicts.</p>
+    <p>Collaborating on GitHub requires careful management to ensure that updates to a repository reflect specific, targeted changes. A structured workflow is crucial for maintaining an organized repository and minimizing conflicts. Here’s a step-by-step guide to streamline your collaboration process.</p>
 <h3 id="1-fork-and-clone-the-repositor">1. Fork and Clone the Repositor</h3>
-<p><code>git clone https://github.com/your-organization/your-repository.git</code></p>
-<h3 id="2-set-up-git-configuration">2. Set Up Git Configuration</h3>
+<p>Begin by forking the target repository and then cloning it to your local machine:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/your-organization/your-repository.git
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2-set-up-git-configuration">2. Set Up Git Configuration</h3>
+<p>Configure your Git user information. This is important for attribution of your contributions:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git config --global user.name &#34;Your Name&#34;
-</span></span><span class="line"><span class="cl">git config --global user.email &#34;your.email@example.com&#34;
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;Your Name&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global user.email <span class="s2">&#34;your.email@example.com&#34;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="3-create-a-new-branch">3. Create a New Branch</h3>
-<p>Create a new branch for the feature you are working on. It&rsquo;s a good practice to create a new branch for each new feature or bug fix:
-<code>git checkout -b feature/your-feature-name</code>
-This command is short for:</p>
+<p>It&rsquo;s best practice to create a new branch for each feature or bug fix. This keeps changes organized and isolated:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout -b feature/your-feature-name
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This is a shorthand for:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git branch feature/your-feature-name
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git branch feature/your-feature-name
 </span></span><span class="line"><span class="cl">git checkout feature/your-feature-name
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="4-making-change-and-committing-changes">4. Making change and committing changes</h3>
-<p>Checking current status,and add changes</p>
+<p>Check your changes and stage them for a commit:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -367,23 +385,24 @@ This command is short for:</p>
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">#check status
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#check status</span>
 </span></span><span class="line"><span class="cl">git status
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># add files
+</span></span><span class="line"><span class="cl"><span class="c1"># add files</span>
 </span></span><span class="line"><span class="cl">git add filename1 filename2
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># or to add all changed files
+</span></span><span class="line"><span class="cl"><span class="c1"># or to add all changed files</span>
 </span></span><span class="line"><span class="cl">git add .
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># Commit the staged changes with a descriptive message:
-</span></span><span class="line"><span class="cl">git commit -m &#34;Description of the changes made&#34;
+</span></span><span class="line"><span class="cl"><span class="c1"># Commit the staged changes with a descriptive message:</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Description of the changes made&#34;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># if you work on vim editor
+</span></span><span class="line"><span class="cl"><span class="c1"># if you work on vim editor</span>
 </span></span><span class="line"><span class="cl">git commit -v 
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="5-pushing-changes">5. Pushing Changes</h3>
+<p>Push your changes to the remote repository:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -391,16 +410,17 @@ This command is short for:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git push
-</span></span><span class="line"><span class="cl"># or to set the upstream branch
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push
+</span></span><span class="line"><span class="cl"><span class="c1"># or to set the upstream branch</span>
 </span></span><span class="line"><span class="cl">git push --set-upstream origin feature/your-feature-name
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="6-creating-a-pull-request">6. Creating a Pull Request</h3>
-<pre><code>- On GitHub, navigate to the repository and click on &quot;Pull requests&quot;.
-- Click &quot;New pull request&quot;, select their branch from the dropdown, and click &quot;Create pull request&quot;.
-- Fill out the title and description, then click &quot;Create pull request&quot;.
-</code></pre>
+<ul>
+<li>On GitHub, navigate to the repository and click on &ldquo;Pull requests&rdquo;.</li>
+<li>Click &ldquo;New pull request&rdquo;, select their branch from the dropdown, and click &ldquo;Create pull request&rdquo;.</li>
+<li>Fill out the title and description, then click &ldquo;Create pull request&rdquo;.</li>
+</ul>
 <h3 id="7-addressing-feedback">7. Addressing Feedback</h3>
 <p>Team members might provide feedback on the pull request. They can make additional changes on their local machine on the same branch, stage, commit, and push those changes. The pull request will update automatically</p>
 <div class="highlight"><div class="chroma">
@@ -411,24 +431,60 @@ This command is short for:</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Make additional changes, then:
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Make additional changes, then:</span>
 </span></span><span class="line"><span class="cl">git add .
-</span></span><span class="line"><span class="cl">git commit -m &#34;Addressing feedback&#34;
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Addressing feedback&#34;</span>
 </span></span><span class="line"><span class="cl">git push
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="8-merging-the-pull-request">8. Merging the Pull Request</h3>
-<pre><code>Once the pull request has been reviewed and approved, it can be merged on GitHub. Click &quot;Merge pull request&quot; then &quot;Confirm merge&quot;.
-</code></pre>
+<p>Once the pull request has been reviewed and approved, it can be merged on GitHub. Click &ldquo;Merge pull request&rdquo; then &ldquo;Confirm merge&rdquo;.</p>
 <h3 id="9-syncing-local-repository">9. Syncing Local Repository</h3>
-<pre><code>After the pull request has been merged, they should sync their local repository with the remote repository to get the latest changes:
-```
-# Switch to the main or development branch
-git checkout main
-# Pull the latest changes
-git pull
-
-```</code></pre>
+<p>After the pull request has been merged, they should sync their local repository with the remote repository to get the latest changes:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">    <span class="c1"># Switch to the main or development branch</span>
+</span></span><span class="line"><span class="cl">    git checkout main
+</span></span><span class="line"><span class="cl">    <span class="c1"># Pull the latest changes</span>
+</span></span><span class="line"><span class="cl">    git pull
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="keeping-your-repository-up-to-date">Keeping Your Repository Up-to-Date</h2>
+<p>Before starting any new changes, ensure your local repository is synchronized with the upstream repository:</p>
+<ol>
+<li>Sync your fork:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">    git remote -v // check the remote setting
+</span></span><span class="line"><span class="cl">    git set-url upstream // using this <span class="nb">command</span> <span class="k">if</span> you want to chang to another url.
+</span></span><span class="line"><span class="cl">    git fetch upstream
+</span></span><span class="line"><span class="cl">    git merge upstream/master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol>
+<li>Push synced changes to:
+<code>git push origin master</code></li>
+</ol>
+<h2 id="additional-tips">Additional tips</h2>
+<ul>
+<li>View commit history with <code>git log --oneline</code>.
+Discard local changes with <code>git reset or git checkout</code>.
+Reset to a specific commit with <code>git reset --hard origin/master</code></li>
+</ul>
+<p>By following these steps, you can efficiently collaborate on projects using Git and GitHub while keeping your repository clean and organized.</p>
 
 </section>
 
